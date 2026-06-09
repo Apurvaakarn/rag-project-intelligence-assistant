@@ -1,0 +1,806 @@
+[
+    {
+        "slide": 1,
+        "text": " Project Repository 100 Real-World Projects  |  GenAI \u00b7 ML/AI \u00b7 Data Engineering Sales & Delivery Intelligence Platform  100 Projects  25+ Domains  80+ Technologies "
+    },
+    {
+        "slide": 2,
+        "text": "  P001 Customer Churn Prediction Engine  ML/AI  PROBLEM STATEMENT High customer attrition rate (18% annually) with no early-warning system, resulting in $12M annual revenue loss.  SOLUTION APPROACH Built an ensemble ML model (XGBoost + LightGBM) trained on 3 years of usage data with real-time scoring via REST API. Deployed on AWS SageMaker with automated retraining pipeline.  PROJECT DETAILS  Domain Telecom  Team Size 4 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  XGBoost  \u00b7  LightGBM  \u00b7  AWS SageMaker  \u00b7  Apache Kafka  \u00b7  PostgreSQL   EXPECTED OUTCOMES Reduced churn by 23%, saving ~$2.8M annually. Model achieves 87% recall on at-risk customers. "
+    },
+    {
+        "slide": 3,
+        "text": " P001  \u203a  Customer Churn Prediction Engine  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   XGBoost   LightGBM   AWS SageMaker   Apache Kafka   PostgreSQL  KEY METRICS & BUSINESS IMPACT Reduced churn by 23%, saving ~$2.8M annually. Model achieves 87% recall on at-risk customers.  4 Team Size  3 Duration  Telecom Domain  PROBLEM CONTEXT High customer attrition rate (18% annually) with no early-warning system, resulting in $12M annual revenue loss. "
+    },
+    {
+        "slide": 4,
+        "text": "  P002 NLP-Powered Contract Review System  NLP / GenAI  PROBLEM STATEMENT Legal team spending 2,000+ hours/month manually reviewing vendor contracts for compliance clauses and risk flags.  SOLUTION APPROACH Fine-tuned BERT model for clause classification and risk scoring. Integrated with SharePoint via Power Automate. Built React dashboard for review workflow.  PROJECT DETAILS  Domain Legal / FinTech  Team Size 3 people  Duration 2 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  BERT  \u00b7  HuggingFace Transformers  \u00b7  FastAPI  \u00b7  React  \u00b7  SharePoint   EXPECTED OUTCOMES 90% reduction in manual review time. Processes 500+ contracts/day with 94% clause classification accuracy. "
+    },
+    {
+        "slide": 5,
+        "text": " P002  \u203a  NLP-Powered Contract Review System  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   BERT   HuggingFace Transformers   FastAPI   React   SharePoint  KEY METRICS & BUSINESS IMPACT 90% reduction in manual review time. Processes 500+ contracts/day with 94% clause classification accuracy.  3 Team Size  2 Duration  Legal Domain  PROBLEM CONTEXT Legal team spending 2,000+ hours/month manually reviewing vendor contracts for compliance clauses and risk flags. "
+    },
+    {
+        "slide": 6,
+        "text": "  P003 Real-Time Supply Chain Visibility Platform  Data Engineering  PROBLEM STATEMENT No end-to-end visibility across 40+ suppliers, causing $8M in annual inventory write-offs and 15% on-time delivery failure.  SOLUTION APPROACH Built event-driven data pipeline using Kafka for real-time supplier feeds. Created unified dashboard on Databricks with anomaly detection for delivery risk scoring.  PROJECT DETAILS  Domain Manufacturing / Supply Chain  Team Size 6 people  Duration 5 months  Type Data Engineering  TECHNOLOGY STACK Apache Kafka  \u00b7  Databricks  \u00b7  Delta Lake  \u00b7  Python  \u00b7  Power BI  \u00b7  Azure   EXPECTED OUTCOMES Reduced inventory write-offs by 60%, improved on-time delivery to 96%. ROI of 4x in Year 1. "
+    },
+    {
+        "slide": 7,
+        "text": " P003  \u203a  Real-Time Supply Chain Visibility Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Apache Kafka   Databricks   Delta Lake   Python   Power BI   Azure  KEY METRICS & BUSINESS IMPACT Reduced inventory write-offs by 60%, improved on-time delivery to 96%. ROI of 4x in Year 1.  6 Team Size  5 Duration  Manufacturing Domain  PROBLEM CONTEXT No end-to-end visibility across 40+ suppliers, causing $8M in annual inventory write-offs and 15% on-time delivery failure. "
+    },
+    {
+        "slide": 8,
+        "text": "  P004 Healthcare Claims Fraud Detection  ML/AI  PROBLEM STATEMENT Insurance provider losing $40M annually to fraudulent claims, with traditional rules-based system catching only 30% of fraud cases.  SOLUTION APPROACH Graph neural network model analyzing claim relationships and provider networks. Combined with rule engine for explainability. Real-time scoring via Azure ML endpoints.  PROJECT DETAILS  Domain Healthcare / Insurance  Team Size 5 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PyTorch  \u00b7  Graph Neural Networks  \u00b7  Azure ML  \u00b7  Neo4j  \u00b7  SQL Server   EXPECTED OUTCOMES Fraud detection rate improved from 30% to 78%. Estimated $18M annual savings with <2% false positive rate. "
+    },
+    {
+        "slide": 9,
+        "text": " P004  \u203a  Healthcare Claims Fraud Detection  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch   Graph Neural Networks   Azure ML   Neo4j   SQL Server  KEY METRICS & BUSINESS IMPACT Fraud detection rate improved from 30% to 78%. Estimated $18M annual savings with <2% false positive rate.  5 Team Size  4 Duration  Healthcare Domain  PROBLEM CONTEXT Insurance provider losing $40M annually to fraudulent claims, with traditional rules-based system catching only 30% of fraud cases. "
+    },
+    {
+        "slide": 10,
+        "text": "  P005 GenAI Document Intelligence for Pharma  NLP / GenAI  PROBLEM STATEMENT Drug trial documentation spread across 10,000+ PDFs, making regulatory submission preparation extremely manual and error-prone.  SOLUTION APPROACH RAG pipeline using GPT-4 and custom embeddings to answer regulatory queries. Built semantic search over clinical trial documents with source attribution.  PROJECT DETAILS  Domain Pharma / Life Sciences  Team Size 4 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4  \u00b7  LangChain  \u00b7  FAISS  \u00b7  Python  \u00b7  Azure Blob Storage  \u00b7  Streamlit   EXPECTED OUTCOMES 75% reduction in regulatory document preparation time. Passed FDA audit with zero documentation gaps. "
+    },
+    {
+        "slide": 11,
+        "text": " P005  \u203a  GenAI Document Intelligence for Pharma  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4   LangChain   FAISS   Python   Azure Blob Storage   Streamlit  KEY METRICS & BUSINESS IMPACT 75% reduction in regulatory document preparation time. Passed FDA audit with zero documentation gaps.  4 Team Size  3 Duration  Pharma Domain  PROBLEM CONTEXT Drug trial documentation spread across 10,000+ PDFs, making regulatory submission preparation extremely manual and error-prone. "
+    },
+    {
+        "slide": 12,
+        "text": "  P006 E-Commerce Recommendation Engine  ML/AI  PROBLEM STATEMENT Low product discovery rate (2.1% click-through) on homepage and search, leading to missed upsell revenue.  SOLUTION APPROACH Hybrid collaborative + content-based filtering model using user behavior, purchase history, and product embeddings. A/B tested via feature flags.  PROJECT DETAILS  Domain Retail / E-Commerce  Team Size 5 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  TensorFlow  \u00b7  Redis  \u00b7  Apache Spark  \u00b7  AWS  \u00b7  Elasticsearch   EXPECTED OUTCOMES CTR improved to 6.8% (3.2x baseline). $4.2M incremental revenue in Q1 post-launch. "
+    },
+    {
+        "slide": 13,
+        "text": " P006  \u203a  E-Commerce Recommendation Engine  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   TensorFlow   Redis   Apache Spark   AWS   Elasticsearch  KEY METRICS & BUSINESS IMPACT CTR improved to 6.8% (3.2x baseline). $4.2M incremental revenue in Q1 post-launch.  5 Team Size  3 Duration  Retail Domain  PROBLEM CONTEXT Low product discovery rate (2.1% click-through) on homepage and search, leading to missed upsell revenue. "
+    },
+    {
+        "slide": 14,
+        "text": "  P007 Predictive Maintenance for Industrial IoT  ML/AI  PROBLEM STATEMENT Unplanned equipment downtime costing $500K/incident across 200 manufacturing assets with no predictive capability.  SOLUTION APPROACH Time-series anomaly detection on sensor data streams using LSTM models. Edge deployment on Raspberry Pi devices with cloud aggregation on AWS IoT.  PROJECT DETAILS  Domain Manufacturing / Energy  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  LSTM  \u00b7  TensorFlow Lite  \u00b7  AWS IoT  \u00b7  InfluxDB  \u00b7  Grafana   EXPECTED OUTCOMES Reduced unplanned downtime by 67%. Saved $3.2M in Year 1 with 94% failure prediction accuracy (7-day horizon). "
+    },
+    {
+        "slide": 15,
+        "text": " P007  \u203a  Predictive Maintenance for Industrial IoT  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LSTM   TensorFlow Lite   AWS IoT   InfluxDB   Grafana  KEY METRICS & BUSINESS IMPACT Reduced unplanned downtime by 67%. Saved $3.2M in Year 1 with 94% failure prediction accuracy (7-day horizon).  4 Team Size  4 Duration  Manufacturing Domain  PROBLEM CONTEXT Unplanned equipment downtime costing $500K/incident across 200 manufacturing assets with no predictive capability. "
+    },
+    {
+        "slide": 16,
+        "text": "  P008 Automated Data Quality Framework  Data Engineering  PROBLEM STATEMENT Data quality issues causing $1.5M in fines and 400 hours/month of manual data validation across 12 source systems.  SOLUTION APPROACH Built Great Expectations-based framework with 500+ automated tests. Integrated into Airflow DAGs with Slack alerting and lineage tracking via dbt.  PROJECT DETAILS  Domain Financial Services  Team Size 3 people  Duration 2 months  Type Data Engineering  TECHNOLOGY STACK Great Expectations  \u00b7  Apache Airflow  \u00b7  dbt  \u00b7  Python  \u00b7  Snowflake  \u00b7  Slack API   EXPECTED OUTCOMES Zero data quality-related fines in 8 months post-launch. 95% reduction in manual validation effort. "
+    },
+    {
+        "slide": 17,
+        "text": " P008  \u203a  Automated Data Quality Framework  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Great Expectations   Apache Airflow   dbt   Python   Snowflake   Slack API  KEY METRICS & BUSINESS IMPACT Zero data quality-related fines in 8 months post-launch. 95% reduction in manual validation effort.  3 Team Size  2 Duration  Financial Services Domain  PROBLEM CONTEXT Data quality issues causing $1.5M in fines and 400 hours/month of manual data validation across 12 source systems. "
+    },
+    {
+        "slide": 18,
+        "text": "  P009 Multi-Language Sentiment Analysis Platform  NLP / GenAI  PROBLEM STATEMENT Brand monitoring team unable to process 500K+ daily social mentions in 12 languages, missing reputation crises in real time.  SOLUTION APPROACH Multilingual BERT model fine-tuned on domain-specific data. Real-time pipeline via Kafka and Elasticsearch. Executive dashboard with crisis alerting.  PROJECT DETAILS  Domain Consumer Goods / Marketing  Team Size 3 people  Duration 2 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  mBERT  \u00b7  HuggingFace  \u00b7  Apache Kafka  \u00b7  Elasticsearch  \u00b7  Kibana   EXPECTED OUTCOMES Real-time monitoring across 12 languages with 89% sentiment accuracy. Detected 3 major brand crises within hours. "
+    },
+    {
+        "slide": 19,
+        "text": " P009  \u203a  Multi-Language Sentiment Analysis Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   mBERT   HuggingFace   Apache Kafka   Elasticsearch   Kibana  KEY METRICS & BUSINESS IMPACT Real-time monitoring across 12 languages with 89% sentiment accuracy. Detected 3 major brand crises within hours.  3 Team Size  2 Duration  Consumer Goods Domain  PROBLEM CONTEXT Brand monitoring team unable to process 500K+ daily social mentions in 12 languages, missing reputation crises in real time. "
+    },
+    {
+        "slide": 20,
+        "text": "  P010 Cloud Cost Optimization Intelligence  Data Engineering  PROBLEM STATEMENT Cloud spend growing 40% YoY with no visibility into waste. $2.8M annual overspend identified by external audit.  SOLUTION APPROACH Built cost attribution pipeline ingesting AWS Cost Explorer + Azure Cost Management. ML model predicts spend anomalies. FinOps dashboard with rightsizing recommendations.  PROJECT DETAILS  Domain Technology / SaaS  Team Size 2 people  Duration 6 weeks  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  AWS Cost Explorer API  \u00b7  Azure Cost Management  \u00b7  Snowflake  \u00b7  Tableau  \u00b7  dbt   EXPECTED OUTCOMES Identified $1.9M in annual savings. 34% reduction in cloud spend within 3 months of recommendations. "
+    },
+    {
+        "slide": 21,
+        "text": " P010  \u203a  Cloud Cost Optimization Intelligence  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   AWS Cost Explorer API   Azure Cost Management   Snowflake   Tableau   dbt  KEY METRICS & BUSINESS IMPACT Identified $1.9M in annual savings. 34% reduction in cloud spend within 3 months of recommendations.  2 Team Size  6 weeks Duration  Technology Domain  PROBLEM CONTEXT Cloud spend growing 40% YoY with no visibility into waste. $2.8M annual overspend identified by external audit. "
+    },
+    {
+        "slide": 22,
+        "text": "  P011 LLM-Powered HR Policy Chatbot  NLP / GenAI  PROBLEM STATEMENT HR team fielding 3,000+ repetitive policy questions/month, with 48-hour average response time frustrating employees.  SOLUTION APPROACH RAG-based chatbot using GPT-3.5-turbo over internal HR policy documents. Integrated with Slack and MS Teams. Escalation routing to HR agents for complex queries.  PROJECT DETAILS  Domain HR / Enterprise  Team Size 2 people  Duration 6 weeks  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-3.5  \u00b7  LangChain  \u00b7  Pinecone  \u00b7  Python  \u00b7  Slack SDK  \u00b7  MS Teams API   EXPECTED OUTCOMES Deflected 78% of HR queries. Average response time reduced from 48 hours to <30 seconds. 4.6/5 employee satisfaction. "
+    },
+    {
+        "slide": 23,
+        "text": " P011  \u203a  LLM-Powered HR Policy Chatbot  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-3.5   LangChain   Pinecone   Python   Slack SDK   MS Teams API  KEY METRICS & BUSINESS IMPACT Deflected 78% of HR queries. Average response time reduced from 48 hours to <30 seconds. 4.6/5 employee satisfaction.  2 Team Size  6 weeks Duration  HR Domain  PROBLEM CONTEXT HR team fielding 3,000+ repetitive policy questions/month, with 48-hour average response time frustrating employees. "
+    },
+    {
+        "slide": 24,
+        "text": "  P012 Real-Time Fraud Detection for Payments  ML/AI  PROBLEM STATEMENT Payment processor experiencing 0.3% fraud rate ($9M annual losses) with 800ms legacy rule engine too slow for modern transaction volumes.  SOLUTION APPROACH Streaming ML pipeline on Apache Flink with feature store on Redis. Gradient boosting model with 50ms inference latency. Shadow mode deployment for safe rollout.  PROJECT DETAILS  Domain FinTech / Banking  Team Size 7 people  Duration 6 months  Type ML/AI  TECHNOLOGY STACK Apache Flink  \u00b7  Python  \u00b7  XGBoost  \u00b7  Redis  \u00b7  Apache Kafka  \u00b7  Kubernetes   EXPECTED OUTCOMES Fraud rate reduced to 0.07%. $7.4M annual loss prevention. P99 latency of 45ms at 50K TPS. "
+    },
+    {
+        "slide": 25,
+        "text": " P012  \u203a  Real-Time Fraud Detection for Payments  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Apache Flink   Python   XGBoost   Redis   Apache Kafka   Kubernetes  KEY METRICS & BUSINESS IMPACT Fraud rate reduced to 0.07%. $7.4M annual loss prevention. P99 latency of 45ms at 50K TPS.  7 Team Size  6 Duration  FinTech Domain  PROBLEM CONTEXT Payment processor experiencing 0.3% fraud rate ($9M annual losses) with 800ms legacy rule engine too slow for modern transaction volumes. "
+    },
+    {
+        "slide": 26,
+        "text": "  P013 Drug Discovery Target Identification  ML/AI  PROBLEM STATEMENT Traditional target identification taking 3\u20135 years, blocking early-stage pipeline with $200M+ opportunity cost.  SOLUTION APPROACH Graph ML model on protein interaction networks combined with literature mining via BioBERT. Prioritization scores for 10,000+ gene candidates.  PROJECT DETAILS  Domain Pharma / Life Sciences  Team Size 6 people  Duration 8 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PyTorch Geometric  \u00b7  BioBERT  \u00b7  Neo4j  \u00b7  RDKit  \u00b7  AWS   EXPECTED OUTCOMES Identified 3 novel targets validated in lab. Reduced initial screening time from 18 months to 6 weeks. "
+    },
+    {
+        "slide": 27,
+        "text": " P013  \u203a  Drug Discovery Target Identification  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch Geometric   BioBERT   Neo4j   RDKit   AWS  KEY METRICS & BUSINESS IMPACT Identified 3 novel targets validated in lab. Reduced initial screening time from 18 months to 6 weeks.  6 Team Size  8 Duration  Pharma Domain  PROBLEM CONTEXT Traditional target identification taking 3\u20135 years, blocking early-stage pipeline with $200M+ opportunity cost. "
+    },
+    {
+        "slide": 28,
+        "text": "  P014 Automated Code Review Assistant  NLP / GenAI  PROBLEM STATEMENT Code review backlog causing 3-day average PR merge time, slowing release velocity and developer productivity.  SOLUTION APPROACH LLM-based code review bot integrated with GitHub PRs. Fine-tuned CodeLlama model for security vulnerability detection and style compliance.  PROJECT DETAILS  Domain Technology / DevOps  Team Size 3 people  Duration 2 months  Type NLP / GenAI  TECHNOLOGY STACK CodeLlama  \u00b7  Python  \u00b7  GitHub Actions  \u00b7  FastAPI  \u00b7  Docker  \u00b7  PostgreSQL   EXPECTED OUTCOMES 75% reduction in PR review time. Security vulnerability detection at 82% recall. 40% improvement in code quality scores. "
+    },
+    {
+        "slide": 29,
+        "text": " P014  \u203a  Automated Code Review Assistant  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   CodeLlama   Python   GitHub Actions   FastAPI   Docker   PostgreSQL  KEY METRICS & BUSINESS IMPACT 75% reduction in PR review time. Security vulnerability detection at 82% recall. 40% improvement in code quality scores.  3 Team Size  2 Duration  Technology Domain  PROBLEM CONTEXT Code review backlog causing 3-day average PR merge time, slowing release velocity and developer productivity. "
+    },
+    {
+        "slide": 30,
+        "text": "  P015 Customer 360 Data Platform  Data Engineering  PROBLEM STATEMENT Customer data siloed across 8 systems \u2014 CRM, billing, support, web analytics \u2014 preventing personalized experiences.  SOLUTION APPROACH Built identity resolution pipeline using probabilistic matching. Unified customer profile in Snowflake with dbt transformation layer and real-time API for downstream apps.  PROJECT DETAILS  Domain Retail / Banking  Team Size 5 people  Duration 4 months  Type Data Engineering  TECHNOLOGY STACK Snowflake  \u00b7  dbt  \u00b7  Apache Spark  \u00b7  Python  \u00b7  Airflow  \u00b7  REST API   EXPECTED OUTCOMES Unified profiles for 12M customers. Enabled personalization that drove 18% uplift in cross-sell conversion. "
+    },
+    {
+        "slide": 31,
+        "text": " P015  \u203a  Customer 360 Data Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Snowflake   dbt   Apache Spark   Python   Airflow   REST API  KEY METRICS & BUSINESS IMPACT Unified profiles for 12M customers. Enabled personalization that drove 18% uplift in cross-sell conversion.  5 Team Size  4 Duration  Retail Domain  PROBLEM CONTEXT Customer data siloed across 8 systems \u2014 CRM, billing, support, web analytics \u2014 preventing personalized experiences. "
+    },
+    {
+        "slide": 32,
+        "text": "  P016 NLP-Based Resume Screening System  NLP / GenAI  PROBLEM STATEMENT Recruiting team manually screening 10,000+ resumes/month per role, with 72-hour time-to-shortlist frustrating hiring managers.  SOLUTION APPROACH Sentence-BERT embeddings for semantic matching between JD and resume. Scoring pipeline with ATS integration. Bias audit module for fairness compliance.  PROJECT DETAILS  Domain HR / Recruitment  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  Sentence-BERT  \u00b7  HuggingFace  \u00b7  FastAPI  \u00b7  Workday API  \u00b7  PostgreSQL   EXPECTED OUTCOMES Time-to-shortlist reduced from 72 hours to 4 hours. 91% hiring manager satisfaction with shortlist quality. "
+    },
+    {
+        "slide": 33,
+        "text": " P016  \u203a  NLP-Based Resume Screening System  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Sentence-BERT   HuggingFace   FastAPI   Workday API   PostgreSQL  KEY METRICS & BUSINESS IMPACT Time-to-shortlist reduced from 72 hours to 4 hours. 91% hiring manager satisfaction with shortlist quality.  3 Team Size  10 weeks Duration  HR Domain  PROBLEM CONTEXT Recruiting team manually screening 10,000+ resumes/month per role, with 72-hour time-to-shortlist frustrating hiring managers. "
+    },
+    {
+        "slide": 34,
+        "text": "  P017 Energy Demand Forecasting System  ML/AI  PROBLEM STATEMENT Utility company over-procuring energy by 12% due to inaccurate demand forecasts, costing $15M in unnecessary contracts.  SOLUTION APPROACH Ensemble forecasting: Prophet for trend + LSTM for short-term patterns + external regressors (weather, events). Deployed on Azure ML with automated daily retraining.  PROJECT DETAILS  Domain Energy / Utilities  Team Size 4 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Prophet  \u00b7  LSTM  \u00b7  Azure ML  \u00b7  SQL Server  \u00b7  Power BI   EXPECTED OUTCOMES Forecast accuracy improved from 83% to 96%. Annual savings of $11M in energy procurement costs. "
+    },
+    {
+        "slide": 35,
+        "text": " P017  \u203a  Energy Demand Forecasting System  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Prophet   LSTM   Azure ML   SQL Server   Power BI  KEY METRICS & BUSINESS IMPACT Forecast accuracy improved from 83% to 96%. Annual savings of $11M in energy procurement costs.  4 Team Size  3 Duration  Energy Domain  PROBLEM CONTEXT Utility company over-procuring energy by 12% due to inaccurate demand forecasts, costing $15M in unnecessary contracts. "
+    },
+    {
+        "slide": 36,
+        "text": "  P018 Logistics Route Optimization Engine  ML/AI  PROBLEM STATEMENT Fleet of 500 vehicles using static route plans, resulting in 22% excess mileage and $6M annual fuel waste.  SOLUTION APPROACH Dynamic vehicle routing with Google OR-Tools. Real-time traffic integration via HERE API. Constraint satisfaction for time windows, capacity, and driver hours.  PROJECT DETAILS  Domain Logistics / Supply Chain  Team Size 5 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Google OR-Tools  \u00b7  HERE API  \u00b7  FastAPI  \u00b7  PostgreSQL  \u00b7  React   EXPECTED OUTCOMES 18% reduction in total mileage. $4.8M annual fuel savings. On-time delivery improved from 84% to 97%. "
+    },
+    {
+        "slide": 37,
+        "text": " P018  \u203a  Logistics Route Optimization Engine  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Google OR-Tools   HERE API   FastAPI   PostgreSQL   React  KEY METRICS & BUSINESS IMPACT 18% reduction in total mileage. $4.8M annual fuel savings. On-time delivery improved from 84% to 97%.  5 Team Size  4 Duration  Logistics Domain  PROBLEM CONTEXT Fleet of 500 vehicles using static route plans, resulting in 22% excess mileage and $6M annual fuel waste. "
+    },
+    {
+        "slide": 38,
+        "text": "  P019 Social Media Analytics Pipeline  Data Engineering  PROBLEM STATEMENT Marketing team running weekly batch analytics on social data, missing real-time campaign performance signals.  SOLUTION APPROACH Streaming ingestion from Twitter/Instagram APIs via Kafka. Spark Streaming for aggregations. Near-real-time Power BI dashboard refreshing every 5 minutes.  PROJECT DETAILS  Domain Marketing / Media  Team Size 3 people  Duration 2 months  Type Data Engineering  TECHNOLOGY STACK Apache Kafka  \u00b7  Spark Streaming  \u00b7  Python  \u00b7  Twitter API  \u00b7  Azure  \u00b7  Power BI   EXPECTED OUTCOMES Campaign optimization latency reduced from 7 days to 15 minutes. 28% improvement in campaign ROI. "
+    },
+    {
+        "slide": 39,
+        "text": " P019  \u203a  Social Media Analytics Pipeline  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Apache Kafka   Spark Streaming   Python   Twitter API   Azure   Power BI  KEY METRICS & BUSINESS IMPACT Campaign optimization latency reduced from 7 days to 15 minutes. 28% improvement in campaign ROI.  3 Team Size  2 Duration  Marketing Domain  PROBLEM CONTEXT Marketing team running weekly batch analytics on social data, missing real-time campaign performance signals. "
+    },
+    {
+        "slide": 40,
+        "text": "  P020 Medical Image Classification for Radiology  ML/AI  PROBLEM STATEMENT Radiologists reviewing 400+ chest X-rays daily with 48-hour report turnaround and 12% missed finding rate.  SOLUTION APPROACH EfficientNet-based CNN fine-tuned on 120K labeled X-rays for 14 pathology classes. Integrated with PACS via DICOM standard. Uncertainty quantification for triage.  PROJECT DETAILS  Domain Healthcare  Team Size 6 people  Duration 6 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PyTorch  \u00b7  EfficientNet  \u00b7  DICOM  \u00b7  FastAPI  \u00b7  AWS   EXPECTED OUTCOMES Turnaround reduced to 8 hours. Sensitivity improved to 94% (from 88%). FDA 510(k) clearance obtained. "
+    },
+    {
+        "slide": 41,
+        "text": " P020  \u203a  Medical Image Classification for Radiology  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch   EfficientNet   DICOM   FastAPI   AWS  KEY METRICS & BUSINESS IMPACT Turnaround reduced to 8 hours. Sensitivity improved to 94% (from 88%). FDA 510(k) clearance obtained.  6 Team Size  6 Duration  Healthcare Domain  PROBLEM CONTEXT Radiologists reviewing 400+ chest X-rays daily with 48-hour report turnaround and 12% missed finding rate. "
+    },
+    {
+        "slide": 42,
+        "text": "  P021 Automated Financial Reporting Pipeline  Data Engineering  PROBLEM STATEMENT Month-end close taking 12 days with 60% time spent on manual data consolidation across 30 Excel files.  SOLUTION APPROACH Automated ETL from ERP systems into Snowflake. dbt models for financial consolidation logic. Pre-built report templates in Power BI with row-level security.  PROJECT DETAILS  Domain Financial Services  Team Size 3 people  Duration 3 months  Type Data Engineering  TECHNOLOGY STACK Snowflake  \u00b7  dbt  \u00b7  Airflow  \u00b7  SAP ERP API  \u00b7  Power BI  \u00b7  Python   EXPECTED OUTCOMES Month-end close reduced from 12 days to 3 days. Eliminated 95% of manual effort. Zero restatements in 12 months. "
+    },
+    {
+        "slide": 43,
+        "text": " P021  \u203a  Automated Financial Reporting Pipeline  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Snowflake   dbt   Airflow   SAP ERP API   Power BI   Python  KEY METRICS & BUSINESS IMPACT Month-end close reduced from 12 days to 3 days. Eliminated 95% of manual effort. Zero restatements in 12 months.  3 Team Size  3 Duration  Financial Services Domain  PROBLEM CONTEXT Month-end close taking 12 days with 60% time spent on manual data consolidation across 30 Excel files. "
+    },
+    {
+        "slide": 44,
+        "text": "  P022 Conversational AI for Banking Support  NLP / GenAI  PROBLEM STATEMENT Call center handling 50,000 monthly inquiries at $8 average cost per call. 70% of calls are repetitive balance/transaction queries.  SOLUTION APPROACH Rasa-based conversational AI with banking core system integration. Multi-turn dialogue for account queries, fund transfers. Live agent handoff with conversation context.  PROJECT DETAILS  Domain Banking / FinTech  Team Size 5 people  Duration 5 months  Type NLP / GenAI  TECHNOLOGY STACK Rasa  \u00b7  Python  \u00b7  Core Banking API  \u00b7  Redis  \u00b7  Docker  \u00b7  Kubernetes   EXPECTED OUTCOMES Automated 65% of call volume. Annual savings of $2.8M. CSAT maintained at 4.2/5. "
+    },
+    {
+        "slide": 45,
+        "text": " P022  \u203a  Conversational AI for Banking Support  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Rasa   Python   Core Banking API   Redis   Docker   Kubernetes  KEY METRICS & BUSINESS IMPACT Automated 65% of call volume. Annual savings of $2.8M. CSAT maintained at 4.2/5.  5 Team Size  5 Duration  Banking Domain  PROBLEM CONTEXT Call center handling 50,000 monthly inquiries at $8 average cost per call. 70% of calls are repetitive balance/transaction queries. "
+    },
+    {
+        "slide": 46,
+        "text": "  P023 Product Catalog Embedding & Search  NLP / GenAI  PROBLEM STATEMENT Keyword-based search returning irrelevant results for 35% of queries, leading to $1.2M monthly in abandoned searches.  SOLUTION APPROACH Product embeddings using fine-tuned CLIP model for text+image. Semantic search index in Elasticsearch with KNN plugin. A/B testing framework for ranking experiments.  PROJECT DETAILS  Domain E-Commerce / Retail  Team Size 4 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  CLIP  \u00b7  Elasticsearch  \u00b7  FastAPI  \u00b7  AWS S3  \u00b7  React   EXPECTED OUTCOMES Search relevance improved by 47%. Abandoned search rate reduced to 11%. $680K monthly revenue recovery. "
+    },
+    {
+        "slide": 47,
+        "text": " P023  \u203a  Product Catalog Embedding & Search  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   CLIP   Elasticsearch   FastAPI   AWS S3   React  KEY METRICS & BUSINESS IMPACT Search relevance improved by 47%. Abandoned search rate reduced to 11%. $680K monthly revenue recovery.  4 Team Size  3 Duration  E-Commerce Domain  PROBLEM CONTEXT Keyword-based search returning irrelevant results for 35% of queries, leading to $1.2M monthly in abandoned searches. "
+    },
+    {
+        "slide": 48,
+        "text": "  P024 Real-Time Patient Deterioration Alerts  ML/AI  PROBLEM STATEMENT ICU team missing early deterioration signals, with 22% of preventable codes occurring 6+ hours after first warning signs in vitals.  SOLUTION APPROACH LSTM model on continuous vitals stream predicts deterioration 6 hours ahead. Alert system integrated with nurse station monitors via HL7 FHIR.  PROJECT DETAILS  Domain Healthcare  Team Size 5 people  Duration 5 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  LSTM  \u00b7  TensorFlow  \u00b7  HL7 FHIR  \u00b7  Apache Kafka  \u00b7  PostgreSQL   EXPECTED OUTCOMES Early warning rate improved by 41%. Preventable deterioration events reduced by 35%. IRB-approved clinical trial underway. "
+    },
+    {
+        "slide": 49,
+        "text": " P024  \u203a  Real-Time Patient Deterioration Alerts  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LSTM   TensorFlow   HL7 FHIR   Apache Kafka   PostgreSQL  KEY METRICS & BUSINESS IMPACT Early warning rate improved by 41%. Preventable deterioration events reduced by 35%. IRB-approved clinical trial underway.  5 Team Size  5 Duration  Healthcare Domain  PROBLEM CONTEXT ICU team missing early deterioration signals, with 22% of preventable codes occurring 6+ hours after first warning signs in vitals. "
+    },
+    {
+        "slide": 50,
+        "text": "  P025 Data Lakehouse Migration (On-Prem to Cloud)  Data Engineering  PROBLEM STATEMENT Legacy on-prem Hadoop cluster (500TB) reaching end-of-life, costing $1.2M/year to maintain with 8-hour SLA for critical reports.  SOLUTION APPROACH Lift-and-shift migration to Azure Data Lake Gen2 + Databricks. Delta Lake for ACID transactions. Spark job optimization reduced compute costs by 45%.  PROJECT DETAILS  Domain Retail  Team Size 8 people  Duration 7 months  Type Data Engineering  TECHNOLOGY STACK Azure Data Lake Gen2  \u00b7  Databricks  \u00b7  Delta Lake  \u00b7  Apache Spark  \u00b7  dbt  \u00b7  Terraform   EXPECTED OUTCOMES Infrastructure costs reduced by 55%. Report SLA improved from 8 hours to 90 minutes. Zero data loss during migration. "
+    },
+    {
+        "slide": 51,
+        "text": " P025  \u203a  Data Lakehouse Migration (On-Prem to Cloud)  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Azure Data Lake Gen2   Databricks   Delta Lake   Apache Spark   dbt   Terraform  KEY METRICS & BUSINESS IMPACT Infrastructure costs reduced by 55%. Report SLA improved from 8 hours to 90 minutes. Zero data loss during migration.  8 Team Size  7 Duration  Retail Domain  PROBLEM CONTEXT Legacy on-prem Hadoop cluster (500TB) reaching end-of-life, costing $1.2M/year to maintain with 8-hour SLA for critical reports. "
+    },
+    {
+        "slide": 52,
+        "text": "  P026 LLM-Assisted Sales Proposal Generator  NLP / GenAI  PROBLEM STATEMENT Sales team spending 6\u20138 hours per proposal, with inconsistent messaging causing 40% loss rate on qualified deals.  SOLUTION APPROACH RAG system over past winning proposals + product catalog. GPT-4 generates first-draft proposals customized to prospect industry and deal size.  PROJECT DETAILS  Domain B2B SaaS / Sales  Team Size 2 people  Duration 6 weeks  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4  \u00b7  LangChain  \u00b7  Pinecone  \u00b7  Python  \u00b7  Salesforce API  \u00b7  React   EXPECTED OUTCOMES Proposal creation time reduced from 8 hours to 45 minutes. Win rate improved by 18% within 2 quarters. "
+    },
+    {
+        "slide": 53,
+        "text": " P026  \u203a  LLM-Assisted Sales Proposal Generator  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4   LangChain   Pinecone   Python   Salesforce API   React  KEY METRICS & BUSINESS IMPACT Proposal creation time reduced from 8 hours to 45 minutes. Win rate improved by 18% within 2 quarters.  2 Team Size  6 weeks Duration  B2B SaaS Domain  PROBLEM CONTEXT Sales team spending 6\u20138 hours per proposal, with inconsistent messaging causing 40% loss rate on qualified deals. "
+    },
+    {
+        "slide": 54,
+        "text": "  P027 Inventory Demand Forecasting at SKU Level  ML/AI  PROBLEM STATEMENT 28% stockout rate and 19% overstock causing $22M in lost sales and $8M in write-offs annually across 50,000 SKUs.  SOLUTION APPROACH Hierarchical time-series forecasting using M5 winning approach (LightGBM + reconciliation). Integrated with SAP inventory for automated replenishment triggers.  PROJECT DETAILS  Domain Retail / FMCG  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  LightGBM  \u00b7  Statsmodels  \u00b7  SAP API  \u00b7  Azure  \u00b7  Snowflake   EXPECTED OUTCOMES Stockout rate reduced to 9%. Overstock write-offs down 62%. $18M combined improvement in first year. "
+    },
+    {
+        "slide": 55,
+        "text": " P027  \u203a  Inventory Demand Forecasting at SKU Level  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LightGBM   Statsmodels   SAP API   Azure   Snowflake  KEY METRICS & BUSINESS IMPACT Stockout rate reduced to 9%. Overstock write-offs down 62%. $18M combined improvement in first year.  4 Team Size  4 Duration  Retail Domain  PROBLEM CONTEXT 28% stockout rate and 19% overstock causing $22M in lost sales and $8M in write-offs annually across 50,000 SKUs. "
+    },
+    {
+        "slide": 56,
+        "text": "  P028 Automated Compliance Document Extraction  NLP / GenAI  PROBLEM STATEMENT Compliance team manually extracting data from 2,000+ regulatory filings/month, with 5% error rate causing audit findings.  SOLUTION APPROACH Document AI pipeline using Google Document AI + custom NER model for entity extraction. Human-in-the-loop review for low-confidence extractions.  PROJECT DETAILS  Domain Financial Services / Compliance  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  Google Document AI  \u00b7  spaCy  \u00b7  FastAPI  \u00b7  Google Cloud  \u00b7  PostgreSQL   EXPECTED OUTCOMES Manual effort reduced by 85%. Error rate reduced to 0.3%. Compliance audit findings eliminated for 2 consecutive years. "
+    },
+    {
+        "slide": 57,
+        "text": " P028  \u203a  Automated Compliance Document Extraction  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Google Document AI   spaCy   FastAPI   Google Cloud   PostgreSQL  KEY METRICS & BUSINESS IMPACT Manual effort reduced by 85%. Error rate reduced to 0.3%. Compliance audit findings eliminated for 2 consecutive years.  3 Team Size  10 weeks Duration  Financial Services Domain  PROBLEM CONTEXT Compliance team manually extracting data from 2,000+ regulatory filings/month, with 5% error rate causing audit findings. "
+    },
+    {
+        "slide": 58,
+        "text": "  P029 Cybersecurity Threat Intelligence Platform  ML/AI  PROBLEM STATEMENT SOC team ingesting 5M+ daily events with 98% false positive rate, causing alert fatigue and 4-hour mean detection time.  SOLUTION APPROACH ML-based alert triage using isolation forest + UEBA behavioral models. Knowledge graph for threat correlation. SOAR integration for automated response playbooks.  PROJECT DETAILS  Domain Cybersecurity  Team Size 5 people  Duration 5 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Splunk  \u00b7  Neo4j  \u00b7  Scikit-learn  \u00b7  Elasticsearch  \u00b7  Docker   EXPECTED OUTCOMES False positive rate reduced to 12%. Mean detection time improved from 4 hours to 18 minutes. SOC capacity freed by 60%. "
+    },
+    {
+        "slide": 59,
+        "text": " P029  \u203a  Cybersecurity Threat Intelligence Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Splunk   Neo4j   Scikit-learn   Elasticsearch   Docker  KEY METRICS & BUSINESS IMPACT False positive rate reduced to 12%. Mean detection time improved from 4 hours to 18 minutes. SOC capacity freed by 60%.  5 Team Size  5 Duration  Cybersecurity Domain  PROBLEM CONTEXT SOC team ingesting 5M+ daily events with 98% false positive rate, causing alert fatigue and 4-hour mean detection time. "
+    },
+    {
+        "slide": 60,
+        "text": "  P030 Warehouse Slotting Optimization  ML/AI  PROBLEM STATEMENT Warehouse picking efficiency at 65 lines/hour vs. industry benchmark of 120, due to poor product placement strategy.  SOLUTION APPROACH ML-based slotting engine using order co-occurrence mining and velocity analysis. Genetic algorithm for optimal bin assignment with travel-time minimization.  PROJECT DETAILS  Domain Logistics / Warehouse  Team Size 3 people  Duration 2 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Scikit-learn  \u00b7  DEAP (genetic algo)  \u00b7  PostgreSQL  \u00b7  FastAPI  \u00b7  Power BI   EXPECTED OUTCOMES Picking rate improved to 108 lines/hour (66% improvement). Annual labor savings of $1.4M. "
+    },
+    {
+        "slide": 61,
+        "text": " P030  \u203a  Warehouse Slotting Optimization  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Scikit-learn   DEAP (genetic algo)   PostgreSQL   FastAPI   Power BI  KEY METRICS & BUSINESS IMPACT Picking rate improved to 108 lines/hour (66% improvement). Annual labor savings of $1.4M.  3 Team Size  2 Duration  Logistics Domain  PROBLEM CONTEXT Warehouse picking efficiency at 65 lines/hour vs. industry benchmark of 120, due to poor product placement strategy. "
+    },
+    {
+        "slide": 62,
+        "text": "  P031 Streaming CDC Data Pipeline  Data Engineering  PROBLEM STATEMENT Batch ETL causing 4-hour data lag in analytics platform, making real-time risk dashboards impossible.  SOLUTION APPROACH Debezium CDC from PostgreSQL source to Kafka topics. Kafka Streams for transformation. Apache Iceberg on S3 for ACID lakehouse with sub-minute latency.  PROJECT DETAILS  Domain FinTech / Data Platform  Team Size 4 people  Duration 3 months  Type Data Engineering  TECHNOLOGY STACK Debezium  \u00b7  Apache Kafka  \u00b7  Kafka Streams  \u00b7  Apache Iceberg  \u00b7  AWS S3  \u00b7  Trino   EXPECTED OUTCOMES Data latency reduced from 4 hours to <2 minutes. Enabled real-time risk monitoring across 8 downstream dashboards. "
+    },
+    {
+        "slide": 63,
+        "text": " P031  \u203a  Streaming CDC Data Pipeline  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Debezium   Apache Kafka   Kafka Streams   Apache Iceberg   AWS S3   Trino  KEY METRICS & BUSINESS IMPACT Data latency reduced from 4 hours to <2 minutes. Enabled real-time risk monitoring across 8 downstream dashboards.  4 Team Size  3 Duration  FinTech Domain  PROBLEM CONTEXT Batch ETL causing 4-hour data lag in analytics platform, making real-time risk dashboards impossible. "
+    },
+    {
+        "slide": 64,
+        "text": "  P032 AI-Powered Quality Control for Manufacturing  ML/AI  PROBLEM STATEMENT Manual visual inspection catching only 72% of defects, with $3.5M annual cost from defective products reaching customers.  SOLUTION APPROACH Computer vision system using YOLOv8 trained on 50K labeled images. Edge deployment on NVIDIA Jetson for real-time line inspection at 200ms latency.  PROJECT DETAILS  Domain Manufacturing  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  YOLOv8  \u00b7  NVIDIA Jetson  \u00b7  OpenCV  \u00b7  FastAPI  \u00b7  InfluxDB   EXPECTED OUTCOMES Defect detection rate improved from 72% to 97.3%. Customer complaints reduced by 89%. $2.9M annual savings. "
+    },
+    {
+        "slide": 65,
+        "text": " P032  \u203a  AI-Powered Quality Control for Manufacturing  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   YOLOv8   NVIDIA Jetson   OpenCV   FastAPI   InfluxDB  KEY METRICS & BUSINESS IMPACT Defect detection rate improved from 72% to 97.3%. Customer complaints reduced by 89%. $2.9M annual savings.  4 Team Size  4 Duration  Manufacturing Domain  PROBLEM CONTEXT Manual visual inspection catching only 72% of defects, with $3.5M annual cost from defective products reaching customers. "
+    },
+    {
+        "slide": 66,
+        "text": "  P033 Student Performance Prediction System  ML/AI  PROBLEM STATEMENT University losing 15% of students annually to dropout, with interventions happening too late (after grades posted).  SOLUTION APPROACH Early warning system using LMS engagement data, attendance, and assessment scores. Random Forest model predicts at-risk students 6 weeks before exams.  PROJECT DETAILS  Domain EdTech  Team Size 2 people  Duration 6 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Scikit-learn  \u00b7  Random Forest  \u00b7  Canvas LMS API  \u00b7  PostgreSQL  \u00b7  React   EXPECTED OUTCOMES At-risk students identified 6 weeks earlier. Dropout rate reduced by 28% after advisor intervention program launch. "
+    },
+    {
+        "slide": 67,
+        "text": " P033  \u203a  Student Performance Prediction System  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Scikit-learn   Random Forest   Canvas LMS API   PostgreSQL   React  KEY METRICS & BUSINESS IMPACT At-risk students identified 6 weeks earlier. Dropout rate reduced by 28% after advisor intervention program launch.  2 Team Size  6 weeks Duration  EdTech Domain  PROBLEM CONTEXT University losing 15% of students annually to dropout, with interventions happening too late (after grades posted). "
+    },
+    {
+        "slide": 68,
+        "text": "  P034 Knowledge Graph for Enterprise Search  NLP / GenAI  PROBLEM STATEMENT Enterprise search returning irrelevant results with no understanding of entity relationships across 500TB of internal documents.  SOLUTION APPROACH Entity extraction pipeline using spaCy + custom models. Knowledge graph in Neo4j linking people, projects, clients, and technologies. GraphQL API for search.  PROJECT DETAILS  Domain Technology / Enterprise  Team Size 5 people  Duration 4 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  spaCy  \u00b7  Neo4j  \u00b7  GraphQL  \u00b7  Elasticsearch  \u00b7  Azure   EXPECTED OUTCOMES Search relevance score improved by 58%. Employee time finding information reduced from 2.5 hours/day to 45 minutes. "
+    },
+    {
+        "slide": 69,
+        "text": " P034  \u203a  Knowledge Graph for Enterprise Search  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   spaCy   Neo4j   GraphQL   Elasticsearch   Azure  KEY METRICS & BUSINESS IMPACT Search relevance score improved by 58%. Employee time finding information reduced from 2.5 hours/day to 45 minutes.  5 Team Size  4 Duration  Technology Domain  PROBLEM CONTEXT Enterprise search returning irrelevant results with no understanding of entity relationships across 500TB of internal documents. "
+    },
+    {
+        "slide": 70,
+        "text": "  P035 Loan Default Risk Scoring Engine  ML/AI  PROBLEM STATEMENT Credit risk model built in 2018 showing 15% performance degradation, with NPL ratio rising to 4.2% vs. industry 2.1%.  SOLUTION APPROACH Rebuilt with XGBoost on enriched features including alternative data (utility payments, social). Fairness constraints via Fairlearn. Shadow deployment with champion/challenger.  PROJECT DETAILS  Domain Banking / FinTech  Team Size 4 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  XGBoost  \u00b7  Fairlearn  \u00b7  MLflow  \u00b7  Azure ML  \u00b7  SQL Server   EXPECTED OUTCOMES NPL ratio reduced to 1.8%. Model AUC improved from 0.71 to 0.88. Passed RBI model governance audit. "
+    },
+    {
+        "slide": 71,
+        "text": " P035  \u203a  Loan Default Risk Scoring Engine  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   XGBoost   Fairlearn   MLflow   Azure ML   SQL Server  KEY METRICS & BUSINESS IMPACT NPL ratio reduced to 1.8%. Model AUC improved from 0.71 to 0.88. Passed RBI model governance audit.  4 Team Size  3 Duration  Banking Domain  PROBLEM CONTEXT Credit risk model built in 2018 showing 15% performance degradation, with NPL ratio rising to 4.2% vs. industry 2.1%. "
+    },
+    {
+        "slide": 72,
+        "text": "  P036 Real-Time Pricing Engine for E-Commerce  ML/AI  PROBLEM STATEMENT Static pricing updated weekly, leaving $8M in annual margin on the table vs. competitors using dynamic pricing.  SOLUTION APPROACH Reinforcement learning pricing agent trained in simulation. Deployed with guardrails for margin floors. A/B tested via Optimizely with 15-minute price update cadence.  PROJECT DETAILS  Domain E-Commerce / Retail  Team Size 4 people  Duration 5 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Stable Baselines3  \u00b7  Redis  \u00b7  FastAPI  \u00b7  Optimizely  \u00b7  Snowflake   EXPECTED OUTCOMES Gross margin improved by 3.2 percentage points. $6.4M annual incremental margin. 99.9% uptime on 10M daily price decisions. "
+    },
+    {
+        "slide": 73,
+        "text": " P036  \u203a  Real-Time Pricing Engine for E-Commerce  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Stable Baselines3   Redis   FastAPI   Optimizely   Snowflake  KEY METRICS & BUSINESS IMPACT Gross margin improved by 3.2 percentage points. $6.4M annual incremental margin. 99.9% uptime on 10M daily price decisions.  4 Team Size  5 Duration  E-Commerce Domain  PROBLEM CONTEXT Static pricing updated weekly, leaving $8M in annual margin on the table vs. competitors using dynamic pricing. "
+    },
+    {
+        "slide": 74,
+        "text": "  P037 Multi-Modal Product Content Generation  NLP / GenAI  PROBLEM STATEMENT Content team creating product descriptions for 100K+ catalog items, taking 8 minutes per product at $3 per description.  SOLUTION APPROACH Fine-tuned GPT-4 pipeline generating descriptions from product images + specifications. Human review workflow for brand voice compliance. Integrated with PIM system.  PROJECT DETAILS  Domain E-Commerce / Marketing  Team Size 2 people  Duration 5 weeks  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4V  \u00b7  Python  \u00b7  FastAPI  \u00b7  Akeneo PIM API  \u00b7  AWS Lambda  \u00b7  PostgreSQL   EXPECTED OUTCOMES Cost per description reduced from $3 to $0.08. Processing time from 8 minutes to 12 seconds. 96% brand compliance rate. "
+    },
+    {
+        "slide": 75,
+        "text": " P037  \u203a  Multi-Modal Product Content Generation  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4V   Python   FastAPI   Akeneo PIM API   AWS Lambda   PostgreSQL  KEY METRICS & BUSINESS IMPACT Cost per description reduced from $3 to $0.08. Processing time from 8 minutes to 12 seconds. 96% brand compliance rate.  2 Team Size  5 weeks Duration  E-Commerce Domain  PROBLEM CONTEXT Content team creating product descriptions for 100K+ catalog items, taking 8 minutes per product at $3 per description. "
+    },
+    {
+        "slide": 76,
+        "text": "  P038 Data Mesh Implementation for Telco  Data Engineering  PROBLEM STATEMENT Central data team bottleneck causing 3-week average SLA for new data products, blocking 8 business domains.  SOLUTION APPROACH Data Mesh architecture with domain-owned data products on GCP. Dataplex for governance. Data product contracts via OpenAPI. Central self-serve infrastructure platform.  PROJECT DETAILS  Domain Telecom / Data Platform  Team Size 10 people  Duration 9 months  Type Data Engineering  TECHNOLOGY STACK GCP Dataplex  \u00b7  BigQuery  \u00b7  dbt  \u00b7  Apache Kafka  \u00b7  Terraform  \u00b7  Python   EXPECTED OUTCOMES New data product SLA reduced from 3 weeks to 3 days. 40+ data products launched by domain teams in first 6 months. "
+    },
+    {
+        "slide": 77,
+        "text": " P038  \u203a  Data Mesh Implementation for Telco  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   GCP Dataplex   BigQuery   dbt   Apache Kafka   Terraform   Python  KEY METRICS & BUSINESS IMPACT New data product SLA reduced from 3 weeks to 3 days. 40+ data products launched by domain teams in first 6 months.  10 Team Size  9 Duration  Telecom Domain  PROBLEM CONTEXT Central data team bottleneck causing 3-week average SLA for new data products, blocking 8 business domains. "
+    },
+    {
+        "slide": 78,
+        "text": "  P039 Satellite Imagery Analysis for Agriculture  ML/AI  PROBLEM STATEMENT Agricultural insurer manually assessing crop damage claims, with 45-day settlement time and 8% fraudulent claim rate.  SOLUTION APPROACH CNN model analyzing Sentinel-2 satellite imagery for crop stress detection. Change detection pre/post-event for loss quantification. Automated claim pre-assessment.  PROJECT DETAILS  Domain Agriculture / GeoSpatial  Team Size 5 people  Duration 6 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PyTorch  \u00b7  Sentinel-2 API  \u00b7  GDAL  \u00b7  Google Earth Engine  \u00b7  PostgreSQL   EXPECTED OUTCOMES Claim settlement time reduced from 45 days to 5 days. Fraud detection at 76% accuracy. $12M in fraudulent claims prevented. "
+    },
+    {
+        "slide": 79,
+        "text": " P039  \u203a  Satellite Imagery Analysis for Agriculture  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch   Sentinel-2 API   GDAL   Google Earth Engine   PostgreSQL  KEY METRICS & BUSINESS IMPACT Claim settlement time reduced from 45 days to 5 days. Fraud detection at 76% accuracy. $12M in fraudulent claims prevented.  5 Team Size  6 Duration  Agriculture Domain  PROBLEM CONTEXT Agricultural insurer manually assessing crop damage claims, with 45-day settlement time and 8% fraudulent claim rate. "
+    },
+    {
+        "slide": 80,
+        "text": "  P040 Voice-of-Customer Analytics Platform  NLP / GenAI  PROBLEM STATEMENT Customer feedback arriving through 6 channels (email, chat, NPS, reviews, calls, social) with no unified analysis capability.  SOLUTION APPROACH Unified NLP pipeline with topic modeling (BERTopic), sentiment analysis, and complaint classification. Executive CX dashboard with drill-down to verbatim.  PROJECT DETAILS  Domain Consumer Goods / CX  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  BERTopic  \u00b7  HuggingFace  \u00b7  Apache Kafka  \u00b7  Elasticsearch  \u00b7  Tableau   EXPECTED OUTCOMES 360\u00b0 customer view across 6 channels. Identified top 3 product issues driving 40% of negative NPS. NPS improved 12 points in 6 months. "
+    },
+    {
+        "slide": 81,
+        "text": " P040  \u203a  Voice-of-Customer Analytics Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   BERTopic   HuggingFace   Apache Kafka   Elasticsearch   Tableau  KEY METRICS & BUSINESS IMPACT 360\u00b0 customer view across 6 channels. Identified top 3 product issues driving 40% of negative NPS. NPS improved 12 points in 6 months.  3 Team Size  10 weeks Duration  Consumer Goods Domain  PROBLEM CONTEXT Customer feedback arriving through 6 channels (email, chat, NPS, reviews, calls, social) with no unified analysis capability. "
+    },
+    {
+        "slide": 82,
+        "text": "  P041 Blockchain-Backed Supply Chain Traceability  Data Engineering  PROBLEM STATEMENT Brand facing regulatory scrutiny on food sourcing claims with no immutable audit trail across 200+ global suppliers.  SOLUTION APPROACH Hyperledger Fabric private blockchain for provenance tracking. IoT sensors at key checkpoints. QR code consumer-facing transparency portal.  PROJECT DETAILS  Domain Food & Beverage / Supply Chain  Team Size 6 people  Duration 7 months  Type Data Engineering  TECHNOLOGY STACK Hyperledger Fabric  \u00b7  Node.js  \u00b7  Python  \u00b7  IoT Sensors  \u00b7  React  \u00b7  AWS   EXPECTED OUTCOMES Full farm-to-shelf traceability for 85% of SKUs. Passed two FDA and EU regulatory audits. Consumer trust score +22 points. "
+    },
+    {
+        "slide": 83,
+        "text": " P041  \u203a  Blockchain-Backed Supply Chain Traceability  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Hyperledger Fabric   Node.js   Python   IoT Sensors   React   AWS  KEY METRICS & BUSINESS IMPACT Full farm-to-shelf traceability for 85% of SKUs. Passed two FDA and EU regulatory audits. Consumer trust score +22 points.  6 Team Size  7 Duration  Food & Beverage Domain  PROBLEM CONTEXT Brand facing regulatory scrutiny on food sourcing claims with no immutable audit trail across 200+ global suppliers. "
+    },
+    {
+        "slide": 84,
+        "text": "  P042 Automated Algorithmic Trading Backtester  Data Engineering  PROBLEM STATEMENT Quant team spending 3 weeks per strategy backtest due to fragmented tooling and no vectorized computation layer.  SOLUTION APPROACH High-performance backtesting engine using Numba-accelerated vectorized operations. Walk-forward validation, transaction cost modeling, risk metrics library.  PROJECT DETAILS  Domain FinTech / Capital Markets  Team Size 3 people  Duration 2 months  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  Numba  \u00b7  Pandas  \u00b7  Redis  \u00b7  FastAPI  \u00b7  InfluxDB   EXPECTED OUTCOMES Backtest time reduced from 3 weeks to 4 hours. Enabled 10x more strategy iterations per quarter. 3 live strategies launched. "
+    },
+    {
+        "slide": 85,
+        "text": " P042  \u203a  Automated Algorithmic Trading Backtester  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Numba   Pandas   Redis   FastAPI   InfluxDB  KEY METRICS & BUSINESS IMPACT Backtest time reduced from 3 weeks to 4 hours. Enabled 10x more strategy iterations per quarter. 3 live strategies launched.  3 Team Size  2 Duration  FinTech Domain  PROBLEM CONTEXT Quant team spending 3 weeks per strategy backtest due to fragmented tooling and no vectorized computation layer. "
+    },
+    {
+        "slide": 86,
+        "text": "  P043 AI Tutor for Adaptive Learning  NLP / GenAI  PROBLEM STATEMENT Online learning platform with 20% course completion rate due to one-size-fits-all content delivery and no personalized feedback.  SOLUTION APPROACH Knowledge tracing using Deep Knowledge Tracing (DKT) to model student mastery. LLM for personalized hint generation. Adaptive content sequencing engine.  PROJECT DETAILS  Domain EdTech  Team Size 4 people  Duration 4 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  PyTorch  \u00b7  OpenAI API  \u00b7  FastAPI  \u00b7  React  \u00b7  PostgreSQL   EXPECTED OUTCOMES Course completion rate improved from 20% to 51%. Assessment scores improved 23% on average. NPS score: 72. "
+    },
+    {
+        "slide": 87,
+        "text": " P043  \u203a  AI Tutor for Adaptive Learning  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch   OpenAI API   FastAPI   React   PostgreSQL  KEY METRICS & BUSINESS IMPACT Course completion rate improved from 20% to 51%. Assessment scores improved 23% on average. NPS score: 72.  4 Team Size  4 Duration  EdTech Domain  PROBLEM CONTEXT Online learning platform with 20% course completion rate due to one-size-fits-all content delivery and no personalized feedback. "
+    },
+    {
+        "slide": 88,
+        "text": "  P044 Real-Time Sports Analytics Platform  ML/AI  PROBLEM STATEMENT Broadcasting team using 48-hour delayed match statistics, unable to deliver live data-driven insights during telecasts.  SOLUTION APPROACH Computer vision tracking system using YOLOv8 for player/ball tracking. Real-time event detection pipeline. Low-latency broadcast graphics integration.  PROJECT DETAILS  Domain Sports / Media  Team Size 6 people  Duration 6 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  YOLOv8  \u00b7  OpenCV  \u00b7  Apache Kafka  \u00b7  FastAPI  \u00b7  WebSocket   EXPECTED OUTCOMES Live statistics with <500ms latency. Player tracking accuracy 94%. Integrated with 3 major broadcast networks. "
+    },
+    {
+        "slide": 89,
+        "text": " P044  \u203a  Real-Time Sports Analytics Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   YOLOv8   OpenCV   Apache Kafka   FastAPI   WebSocket  KEY METRICS & BUSINESS IMPACT Live statistics with <500ms latency. Player tracking accuracy 94%. Integrated with 3 major broadcast networks.  6 Team Size  6 Duration  Sports Domain  PROBLEM CONTEXT Broadcasting team using 48-hour delayed match statistics, unable to deliver live data-driven insights during telecasts. "
+    },
+    {
+        "slide": 90,
+        "text": "  P045 Enterprise Knowledge Base with RAG  NLP / GenAI  PROBLEM STATEMENT Technical support team answering same 500 questions repeatedly, with new engineers taking 3 months to become productive.  SOLUTION APPROACH RAG system indexing 10K+ internal documents (wikis, SOPs, tickets). Semantic chunking with parent-child retrieval. Confidence scoring and human escalation.  PROJECT DETAILS  Domain Technology / Enterprise  Team Size 3 people  Duration 2 months  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4  \u00b7  LlamaIndex  \u00b7  Weaviate  \u00b7  Python  \u00b7  Confluence API  \u00b7  React   EXPECTED OUTCOMES Support ticket deflection at 71%. New engineer ramp-up time reduced from 3 months to 5 weeks. $890K annual support cost savings. "
+    },
+    {
+        "slide": 91,
+        "text": " P045  \u203a  Enterprise Knowledge Base with RAG  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4   LlamaIndex   Weaviate   Python   Confluence API   React  KEY METRICS & BUSINESS IMPACT Support ticket deflection at 71%. New engineer ramp-up time reduced from 3 months to 5 weeks. $890K annual support cost savings.  3 Team Size  2 Duration  Technology Domain  PROBLEM CONTEXT Technical support team answering same 500 questions repeatedly, with new engineers taking 3 months to become productive. "
+    },
+    {
+        "slide": 92,
+        "text": "  P046 Patient Readmission Risk Prediction  ML/AI  PROBLEM STATEMENT Hospital facing CMS penalties for 30-day readmission rates 1.8% above national benchmark, risking $4.2M in reimbursement reduction.  SOLUTION APPROACH Ensemble model (LightGBM + logistic regression for interpretability) using EHR data. SHAP explanations for clinician trust. Daily risk score integration with discharge workflow.  PROJECT DETAILS  Domain Healthcare  Team Size 4 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  LightGBM  \u00b7  SHAP  \u00b7  FHIR API  \u00b7  PostgreSQL  \u00b7  Tableau   EXPECTED OUTCOMES Readmission rate reduced 22%. Avoided $3.1M in CMS penalties. Adopted across 4 hospital campuses. "
+    },
+    {
+        "slide": 93,
+        "text": " P046  \u203a  Patient Readmission Risk Prediction  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LightGBM   SHAP   FHIR API   PostgreSQL   Tableau  KEY METRICS & BUSINESS IMPACT Readmission rate reduced 22%. Avoided $3.1M in CMS penalties. Adopted across 4 hospital campuses.  4 Team Size  3 Duration  Healthcare Domain  PROBLEM CONTEXT Hospital facing CMS penalties for 30-day readmission rates 1.8% above national benchmark, risking $4.2M in reimbursement reduction. "
+    },
+    {
+        "slide": 94,
+        "text": "  P047 Geospatial Crime Prediction Platform  ML/AI  PROBLEM STATEMENT Police department reactive to crime with no data-driven patrol allocation, resulting in 20% under-patrolling of high-risk areas.  SOLUTION APPROACH Spatio-temporal ML model using historical crime data, socioeconomic features, and weather. Risk heatmap updated every 4 hours. Privacy-preserving design reviewed by ethics board.  PROJECT DETAILS  Domain Public Safety / Government  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  GeoPandas  \u00b7  XGBoost  \u00b7  PostGIS  \u00b7  Folium  \u00b7  FastAPI   EXPECTED OUTCOMES High-risk area patrol coverage improved by 35%. Property crime reduced 14% in pilot zones. Ethics board approved. "
+    },
+    {
+        "slide": 95,
+        "text": " P047  \u203a  Geospatial Crime Prediction Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   GeoPandas   XGBoost   PostGIS   Folium   FastAPI  KEY METRICS & BUSINESS IMPACT High-risk area patrol coverage improved by 35%. Property crime reduced 14% in pilot zones. Ethics board approved.  4 Team Size  4 Duration  Public Safety Domain  PROBLEM CONTEXT Police department reactive to crime with no data-driven patrol allocation, resulting in 20% under-patrolling of high-risk areas. "
+    },
+    {
+        "slide": 96,
+        "text": "  P048 Automated Invoice Processing  NLP / GenAI  PROBLEM STATEMENT AP team manually processing 15,000 invoices/month at $8 per invoice, with 6-day average processing time and 3% error rate.  SOLUTION APPROACH Document AI pipeline using LayoutLM for structured extraction from PDFs and scanned documents. Automated matching with PO system. Exception routing for human review.  PROJECT DETAILS  Domain Finance / Operations  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  LayoutLM  \u00b7  HuggingFace  \u00b7  SAP AP API  \u00b7  Azure Form Recognizer  \u00b7  PostgreSQL   EXPECTED OUTCOMES Cost per invoice reduced from $8 to $0.80. Processing time from 6 days to 4 hours. Error rate reduced to 0.4%. "
+    },
+    {
+        "slide": 97,
+        "text": " P048  \u203a  Automated Invoice Processing  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LayoutLM   HuggingFace   SAP AP API   Azure Form Recognizer   PostgreSQL  KEY METRICS & BUSINESS IMPACT Cost per invoice reduced from $8 to $0.80. Processing time from 6 days to 4 hours. Error rate reduced to 0.4%.  3 Team Size  10 weeks Duration  Finance Domain  PROBLEM CONTEXT AP team manually processing 15,000 invoices/month at $8 per invoice, with 6-day average processing time and 3% error rate. "
+    },
+    {
+        "slide": 98,
+        "text": "  P049 Data Governance & Catalog Platform  Data Engineering  PROBLEM STATEMENT 2,000+ data assets with no lineage documentation, causing 6-week average onboarding for new data consumers and recurring compliance issues.  SOLUTION APPROACH Apache Atlas for data catalog with automated metadata harvesting from Snowflake, Databricks, and Airflow. Business glossary with stewardship workflow.  PROJECT DETAILS  Domain Financial Services / Data Platform  Team Size 4 people  Duration 4 months  Type Data Engineering  TECHNOLOGY STACK Apache Atlas  \u00b7  Python  \u00b7  Snowflake  \u00b7  Databricks  \u00b7  Apache Airflow  \u00b7  React   EXPECTED OUTCOMES 100% metadata coverage for critical assets. Onboarding time reduced from 6 weeks to 3 days. Zero compliance findings related to lineage. "
+    },
+    {
+        "slide": 99,
+        "text": " P049  \u203a  Data Governance & Catalog Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Apache Atlas   Python   Snowflake   Databricks   Apache Airflow   React  KEY METRICS & BUSINESS IMPACT 100% metadata coverage for critical assets. Onboarding time reduced from 6 weeks to 3 days. Zero compliance findings related to lineage.  4 Team Size  4 Duration  Financial Services Domain  PROBLEM CONTEXT 2,000+ data assets with no lineage documentation, causing 6-week average onboarding for new data consumers and recurring compliance issues. "
+    },
+    {
+        "slide": 100,
+        "text": "  P050 Customer Lifetime Value Prediction  ML/AI  PROBLEM STATEMENT Marketing budget allocated equally across all customers, wasting $3.2M annually on low-value segments with high acquisition cost.  SOLUTION APPROACH BG/NBD + Gamma-Gamma model for transaction-based CLV. Segmentation into value tiers. Integration with marketing automation for budget allocation rules.  PROJECT DETAILS  Domain E-Commerce / Subscription  Team Size 2 people  Duration 6 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Lifetimes library  \u00b7  Scikit-learn  \u00b7  Snowflake  \u00b7  dbt  \u00b7  Braze API   EXPECTED OUTCOMES Marketing ROI improved 34%. LTV prediction MAPE of 12% at 12-month horizon. $1.8M reallocation to high-value segments. "
+    },
+    {
+        "slide": 101,
+        "text": " P050  \u203a  Customer Lifetime Value Prediction  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Lifetimes library   Scikit-learn   Snowflake   dbt   Braze API  KEY METRICS & BUSINESS IMPACT Marketing ROI improved 34%. LTV prediction MAPE of 12% at 12-month horizon. $1.8M reallocation to high-value segments.  2 Team Size  6 weeks Duration  E-Commerce Domain  PROBLEM CONTEXT Marketing budget allocated equally across all customers, wasting $3.2M annually on low-value segments with high acquisition cost. "
+    },
+    {
+        "slide": 102,
+        "text": "  P051 AI-Powered Meeting Summarization Tool  NLP / GenAI  PROBLEM STATEMENT Employees spending 4+ hours/week writing meeting notes and follow-ups, with 40% of action items lost within 24 hours.  SOLUTION APPROACH Whisper ASR for transcription + GPT-4 for structured summary extraction (decisions, actions, owners). Integrated with Zoom, MS Teams, and calendar systems.  PROJECT DETAILS  Domain Enterprise / Productivity  Team Size 2 people  Duration 5 weeks  Type NLP / GenAI  TECHNOLOGY STACK OpenAI Whisper  \u00b7  GPT-4  \u00b7  Python  \u00b7  Zoom SDK  \u00b7  MS Teams API  \u00b7  FastAPI   EXPECTED OUTCOMES Meeting note creation time reduced from 45 min to 2 min. Action item follow-through rate improved from 60% to 91%. "
+    },
+    {
+        "slide": 103,
+        "text": " P051  \u203a  AI-Powered Meeting Summarization Tool  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI Whisper   GPT-4   Python   Zoom SDK   MS Teams API   FastAPI  KEY METRICS & BUSINESS IMPACT Meeting note creation time reduced from 45 min to 2 min. Action item follow-through rate improved from 60% to 91%.  2 Team Size  5 weeks Duration  Enterprise Domain  PROBLEM CONTEXT Employees spending 4+ hours/week writing meeting notes and follow-ups, with 40% of action items lost within 24 hours. "
+    },
+    {
+        "slide": 104,
+        "text": "  P052 Carbon Emissions Monitoring Platform  Data Engineering  PROBLEM STATEMENT Manufacturing company unable to meet ESG reporting requirements due to fragmented Scope 1, 2, and 3 emissions data across 30 facilities.  SOLUTION APPROACH Data integration pipeline from IoT sensors, utility APIs, and supply chain systems. Automated Scope 1/2/3 calculation per GHG Protocol. CDP/GRI reporting templates.  PROJECT DETAILS  Domain Energy / Sustainability  Team Size 4 people  Duration 4 months  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  Apache Airflow  \u00b7  Snowflake  \u00b7  dbt  \u00b7  Power BI  \u00b7  IoT Hub   EXPECTED OUTCOMES Full ESG reporting compliance achieved. Carbon intensity reduced 12% through identified optimization opportunities. CDP B rating achieved. "
+    },
+    {
+        "slide": 105,
+        "text": " P052  \u203a  Carbon Emissions Monitoring Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Apache Airflow   Snowflake   dbt   Power BI   IoT Hub  KEY METRICS & BUSINESS IMPACT Full ESG reporting compliance achieved. Carbon intensity reduced 12% through identified optimization opportunities. CDP B rating achieved.  4 Team Size  4 Duration  Energy Domain  PROBLEM CONTEXT Manufacturing company unable to meet ESG reporting requirements due to fragmented Scope 1, 2, and 3 emissions data across 30 facilities. "
+    },
+    {
+        "slide": 106,
+        "text": "  P053 NER-Based Clinical Trial Matching  NLP / GenAI  PROBLEM STATEMENT Manual patient-to-trial matching taking 3\u20134 weeks per patient with only 12% enrollment rate on eligible candidates.  SOLUTION APPROACH Clinical NLP pipeline extracting eligibility criteria from ClinicalTrials.gov. NER model for patient record extraction. Automated matching with explainability report.  PROJECT DETAILS  Domain Healthcare / Pharma  Team Size 3 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  spaCy  \u00b7  MedSpaCy  \u00b7  BERT  \u00b7  PostgreSQL  \u00b7  FastAPI   EXPECTED OUTCOMES Matching time reduced from 4 weeks to 2 days. Trial enrollment improved from 12% to 38%. Used across 5 hospital networks. "
+    },
+    {
+        "slide": 107,
+        "text": " P053  \u203a  NER-Based Clinical Trial Matching  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   spaCy   MedSpaCy   BERT   PostgreSQL   FastAPI  KEY METRICS & BUSINESS IMPACT Matching time reduced from 4 weeks to 2 days. Trial enrollment improved from 12% to 38%. Used across 5 hospital networks.  3 Team Size  3 Duration  Healthcare Domain  PROBLEM CONTEXT Manual patient-to-trial matching taking 3\u20134 weeks per patient with only 12% enrollment rate on eligible candidates. "
+    },
+    {
+        "slide": 108,
+        "text": "  P054 Multimodal Retail Analytics  ML/AI  PROBLEM STATEMENT Brick-and-mortar retailer with no in-store behavior analytics, unable to optimize layout, staffing, or product placement.  SOLUTION APPROACH Computer vision system using store cameras for footfall heatmaps, dwell time, and conversion funnel. Privacy-preserving (no facial recognition). Dashboard for store ops.  PROJECT DETAILS  Domain Retail  Team Size 5 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  OpenCV  \u00b7  YOLOv8  \u00b7  Apache Kafka  \u00b7  InfluxDB  \u00b7  Grafana   EXPECTED OUTCOMES Store layout optimized based on heatmaps \u2014 19% uplift in high-margin product sales. Staffing efficiency improved 15%. "
+    },
+    {
+        "slide": 109,
+        "text": " P054  \u203a  Multimodal Retail Analytics  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   OpenCV   YOLOv8   Apache Kafka   InfluxDB   Grafana  KEY METRICS & BUSINESS IMPACT Store layout optimized based on heatmaps \u2014 19% uplift in high-margin product sales. Staffing efficiency improved 15%.  5 Team Size  4 Duration  Retail Domain  PROBLEM CONTEXT Brick-and-mortar retailer with no in-store behavior analytics, unable to optimize layout, staffing, or product placement. "
+    },
+    {
+        "slide": 110,
+        "text": "  P055 ML Pipeline Orchestration Platform  Data Engineering  PROBLEM STATEMENT Data science team managing 50+ ML models in production with no centralized monitoring, causing silent model degradation and alert fatigue.  SOLUTION APPROACH Built MLOps platform on Kubernetes with MLflow for experiment tracking, Evidently AI for drift detection, and custom alerting. Model registry with approval workflows.  PROJECT DETAILS  Domain Technology / MLOps  Team Size 4 people  Duration 3 months  Type Data Engineering  TECHNOLOGY STACK Kubernetes  \u00b7  MLflow  \u00b7  Evidently AI  \u00b7  Python  \u00b7  Prometheus  \u00b7  Grafana   EXPECTED OUTCOMES 100% of production models monitored. 5 drift events caught proactively (vs. 0 previously). 30% reduction in model maintenance overhead. "
+    },
+    {
+        "slide": 111,
+        "text": " P055  \u203a  ML Pipeline Orchestration Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Kubernetes   MLflow   Evidently AI   Python   Prometheus   Grafana  KEY METRICS & BUSINESS IMPACT 100% of production models monitored. 5 drift events caught proactively (vs. 0 previously). 30% reduction in model maintenance overhead.  4 Team Size  3 Duration  Technology Domain  PROBLEM CONTEXT Data science team managing 50+ ML models in production with no centralized monitoring, causing silent model degradation and alert fatigue. "
+    },
+    {
+        "slide": 112,
+        "text": "  P056 Legal Case Outcome Prediction  NLP / GenAI  PROBLEM STATEMENT Law firm's case assessment process taking 15+ hours per case with high subjectivity and 35% variance between senior partners.  SOLUTION APPROACH NLP pipeline on 50K historical case documents. Fine-tuned Legal-BERT for outcome prediction with SHAP explanations. Calibrated probability scores for settlement strategy.  PROJECT DETAILS  Domain Legal / Government  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  Legal-BERT  \u00b7  HuggingFace  \u00b7  SHAP  \u00b7  FastAPI  \u00b7  PostgreSQL   EXPECTED OUTCOMES Case assessment time reduced from 15 hours to 2 hours. Prediction AUC 0.82. Settlement recommendation accuracy 73%. "
+    },
+    {
+        "slide": 113,
+        "text": " P056  \u203a  Legal Case Outcome Prediction  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Legal-BERT   HuggingFace   SHAP   FastAPI   PostgreSQL  KEY METRICS & BUSINESS IMPACT Case assessment time reduced from 15 hours to 2 hours. Prediction AUC 0.82. Settlement recommendation accuracy 73%.  3 Team Size  10 weeks Duration  Legal Domain  PROBLEM CONTEXT Law firm's case assessment process taking 15+ hours per case with high subjectivity and 35% variance between senior partners. "
+    },
+    {
+        "slide": 114,
+        "text": "  P057 Automated A/B Testing Platform  Data Engineering  PROBLEM STATEMENT Engineering team running 3\u20134 A/B tests simultaneously with manual p-value calculation and no guardrail metrics, causing $500K in regressions.  SOLUTION APPROACH Self-serve experimentation platform with Bayesian sequential testing, automatic sample size calculation, and guardrail metric monitoring. Integrated with product analytics.  PROJECT DETAILS  Domain Technology / Product  Team Size 3 people  Duration 3 months  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  FastAPI  \u00b7  PostgreSQL  \u00b7  React  \u00b7  Snowflake  \u00b7  Airflow   EXPECTED OUTCOMES Test velocity increased from 4 to 25 concurrent experiments. Regressions eliminated by guardrail system. $2.1M in experiment-driven improvements. "
+    },
+    {
+        "slide": 115,
+        "text": " P057  \u203a  Automated A/B Testing Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   FastAPI   PostgreSQL   React   Snowflake   Airflow  KEY METRICS & BUSINESS IMPACT Test velocity increased from 4 to 25 concurrent experiments. Regressions eliminated by guardrail system. $2.1M in experiment-driven improvements.  3 Team Size  3 Duration  Technology Domain  PROBLEM CONTEXT Engineering team running 3\u20134 A/B tests simultaneously with manual p-value calculation and no guardrail metrics, causing $500K in regressions. "
+    },
+    {
+        "slide": 116,
+        "text": "  P058 Intelligent Procurement Analytics  Data Engineering  PROBLEM STATEMENT Procurement team negotiating vendor contracts without spend analytics, paying 12\u201318% above benchmark prices across $200M in annual spend.  SOLUTION APPROACH Spend analytics pipeline consolidating 8 ERP systems. Price benchmarking using external market data. Supplier risk scoring with news sentiment analysis.  PROJECT DETAILS  Domain Manufacturing / Procurement  Team Size 3 people  Duration 3 months  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  Snowflake  \u00b7  dbt  \u00b7  Airflow  \u00b7  Power BI  \u00b7  News API   EXPECTED OUTCOMES Identified $24M in savings opportunities. Achieved 8.4% average price reduction in renegotiations. Supplier risk visibility for top 200 vendors. "
+    },
+    {
+        "slide": 117,
+        "text": " P058  \u203a  Intelligent Procurement Analytics  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Snowflake   dbt   Airflow   Power BI   News API  KEY METRICS & BUSINESS IMPACT Identified $24M in savings opportunities. Achieved 8.4% average price reduction in renegotiations. Supplier risk visibility for top 200 vendors.  3 Team Size  3 Duration  Manufacturing Domain  PROBLEM CONTEXT Procurement team negotiating vendor contracts without spend analytics, paying 12\u201318% above benchmark prices across $200M in annual spend. "
+    },
+    {
+        "slide": 118,
+        "text": "  P059 Autonomous Crop Disease Detection  ML/AI  PROBLEM STATEMENT Smallholder farmers in developing regions losing 30\u201340% of crop yield to preventable diseases due to no access to expert agronomists.  SOLUTION APPROACH Mobile-first app with offline CNN model (MobileNetV3) detecting 26 crop diseases from photos. Edge deployment for areas with no connectivity. Hindi/Swahili multilingual UI.  PROJECT DETAILS  Domain Agriculture / GovTech  Team Size 4 people  Duration 5 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  TensorFlow Lite  \u00b7  MobileNetV3  \u00b7  React Native  \u00b7  Firebase  \u00b7  AWS   EXPECTED OUTCOMES Deployed to 120K+ farmers across 3 countries. Disease detection accuracy 91%. Average yield loss reduced from 35% to 12%. "
+    },
+    {
+        "slide": 119,
+        "text": " P059  \u203a  Autonomous Crop Disease Detection  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   TensorFlow Lite   MobileNetV3   React Native   Firebase   AWS  KEY METRICS & BUSINESS IMPACT Deployed to 120K+ farmers across 3 countries. Disease detection accuracy 91%. Average yield loss reduced from 35% to 12%.  4 Team Size  5 Duration  Agriculture Domain  PROBLEM CONTEXT Smallholder farmers in developing regions losing 30\u201340% of crop yield to preventable diseases due to no access to expert agronomists. "
+    },
+    {
+        "slide": 120,
+        "text": "  P060 Revenue Operations Data Platform  Data Engineering  PROBLEM STATEMENT Revenue leaders making decisions from 3 disconnected dashboards (CRM, billing, marketing) with 3-day data lag and 15% discrepancy in reported MRR.  SOLUTION APPROACH Unified RevOps data model in Snowflake combining Salesforce, Stripe, HubSpot, and Mixpanel. Single source of truth for ARR, churn, NRR, and pipeline metrics.  PROJECT DETAILS  Domain B2B SaaS / RevOps  Team Size 3 people  Duration 10 weeks  Type Data Engineering  TECHNOLOGY STACK Snowflake  \u00b7  dbt  \u00b7  Fivetran  \u00b7  Salesforce  \u00b7  Stripe API  \u00b7  Looker   EXPECTED OUTCOMES Single MRR source of truth with zero reconciliation issues. Real-time pipeline visibility. Reduced board reporting prep from 3 days to 2 hours. "
+    },
+    {
+        "slide": 121,
+        "text": " P060  \u203a  Revenue Operations Data Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Snowflake   dbt   Fivetran   Salesforce   Stripe API   Looker  KEY METRICS & BUSINESS IMPACT Single MRR source of truth with zero reconciliation issues. Real-time pipeline visibility. Reduced board reporting prep from 3 days to 2 hours.  3 Team Size  10 weeks Duration  B2B SaaS Domain  PROBLEM CONTEXT Revenue leaders making decisions from 3 disconnected dashboards (CRM, billing, marketing) with 3-day data lag and 15% discrepancy in reported MRR. "
+    },
+    {
+        "slide": 122,
+        "text": "  P061 Text-to-SQL Analytics Assistant  NLP / GenAI  PROBLEM STATEMENT Business analysts blocked on data team queue (5-day wait) for SQL queries, slowing time-to-insight across 12 business units.  SOLUTION APPROACH LLM-based text-to-SQL system using schema-aware prompting. Query validation layer to prevent dangerous mutations. Self-correcting mechanism for failed queries.  PROJECT DETAILS  Domain Enterprise / Analytics  Team Size 2 people  Duration 6 weeks  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4  \u00b7  Python  \u00b7  Snowflake  \u00b7  FastAPI  \u00b7  React  \u00b7  LangChain   EXPECTED OUTCOMES 80% of analytical queries now self-served. Data team queue reduced by 70%. Business analyst productivity +4 hours/week. "
+    },
+    {
+        "slide": 123,
+        "text": " P061  \u203a  Text-to-SQL Analytics Assistant  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4   Python   Snowflake   FastAPI   React   LangChain  KEY METRICS & BUSINESS IMPACT 80% of analytical queries now self-served. Data team queue reduced by 70%. Business analyst productivity +4 hours/week.  2 Team Size  6 weeks Duration  Enterprise Domain  PROBLEM CONTEXT Business analysts blocked on data team queue (5-day wait) for SQL queries, slowing time-to-insight across 12 business units. "
+    },
+    {
+        "slide": 124,
+        "text": "  P062 Fleet Telematics & Driver Scoring Platform  ML/AI  PROBLEM STATEMENT Fleet insurer pricing all drivers identically despite 5x variance in risk, leading to adverse selection and 22% loss ratio.  SOLUTION APPROACH Telematics pipeline ingesting GPS, accelerometer, and braking data. Driver risk scoring with explainable features. Usage-based insurance pricing API.  PROJECT DETAILS  Domain Logistics / Insurance  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Apache Kafka  \u00b7  InfluxDB  \u00b7  XGBoost  \u00b7  FastAPI  \u00b7  PostgreSQL   EXPECTED OUTCOMES Driver risk prediction AUC 0.84. Loss ratio improved from 22% to 14%. Enabled 15% premium discount for low-risk drivers. "
+    },
+    {
+        "slide": 125,
+        "text": " P062  \u203a  Fleet Telematics & Driver Scoring Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Apache Kafka   InfluxDB   XGBoost   FastAPI   PostgreSQL  KEY METRICS & BUSINESS IMPACT Driver risk prediction AUC 0.84. Loss ratio improved from 22% to 14%. Enabled 15% premium discount for low-risk drivers.  4 Team Size  4 Duration  Logistics Domain  PROBLEM CONTEXT Fleet insurer pricing all drivers identically despite 5x variance in risk, leading to adverse selection and 22% loss ratio. "
+    },
+    {
+        "slide": 126,
+        "text": "  P063 AI-Assisted Drug Interaction Checker  NLP / GenAI  PROBLEM STATEMENT Pharmacists manually checking drug interactions for 200+ combinations per shift, with 2.3% missed interaction rate causing adverse events.  SOLUTION APPROACH Knowledge graph of 15K drug interactions from DrugBank + FDA data. LLM-augmented explanation for clinical context. Integrated with hospital pharmacy system.  PROJECT DETAILS  Domain Pharma / Healthcare  Team Size 3 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  Neo4j  \u00b7  OpenAI API  \u00b7  FastAPI  \u00b7  React  \u00b7  PostgreSQL   EXPECTED OUTCOMES Missed interaction rate reduced to 0.1%. Alert fatigue reduced by 60% through severity scoring. Deployed across 12 hospital pharmacies. "
+    },
+    {
+        "slide": 127,
+        "text": " P063  \u203a  AI-Assisted Drug Interaction Checker  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Neo4j   OpenAI API   FastAPI   React   PostgreSQL  KEY METRICS & BUSINESS IMPACT Missed interaction rate reduced to 0.1%. Alert fatigue reduced by 60% through severity scoring. Deployed across 12 hospital pharmacies.  3 Team Size  3 Duration  Pharma Domain  PROBLEM CONTEXT Pharmacists manually checking drug interactions for 200+ combinations per shift, with 2.3% missed interaction rate causing adverse events. "
+    },
+    {
+        "slide": 128,
+        "text": "  P064 Personalized News Feed Ranking  ML/AI  PROBLEM STATEMENT News platform with 12% daily active user retention vs. industry 28%, due to non-personalized content feed surfacing irrelevant articles.  SOLUTION APPROACH Two-tower neural network for user-article matching. Thompson Sampling exploration for new content. Real-time feature store on Redis for sub-50ms recommendations.  PROJECT DETAILS  Domain Media / Publishing  Team Size 5 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  TensorFlow  \u00b7  Redis  \u00b7  Apache Kafka  \u00b7  BigQuery  \u00b7  Kubernetes   EXPECTED OUTCOMES DAU retention improved from 12% to 21%. Session length increased 34%. Article click-through improved from 3.1% to 7.8%. "
+    },
+    {
+        "slide": 129,
+        "text": " P064  \u203a  Personalized News Feed Ranking  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   TensorFlow   Redis   Apache Kafka   BigQuery   Kubernetes  KEY METRICS & BUSINESS IMPACT DAU retention improved from 12% to 21%. Session length increased 34%. Article click-through improved from 3.1% to 7.8%.  5 Team Size  4 Duration  Media Domain  PROBLEM CONTEXT News platform with 12% daily active user retention vs. industry 28%, due to non-personalized content feed surfacing irrelevant articles. "
+    },
+    {
+        "slide": 130,
+        "text": "  P065 Automated Tax Compliance Engine  NLP / GenAI  PROBLEM STATEMENT Tax compliance team spending 2,000+ hours/year on indirect tax calculations across 40 jurisdictions, with $800K in penalty exposure.  SOLUTION APPROACH Rules engine with NLP-based tax code parsing. Automated VAT/GST calculation integrated with billing system. Audit trail generation and jurisdiction-specific filing.  PROJECT DETAILS  Domain FinTech / RegTech  Team Size 3 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  spaCy  \u00b7  FastAPI  \u00b7  PostgreSQL  \u00b7  Stripe Tax API  \u00b7  React   EXPECTED OUTCOMES Tax calculation time reduced from 2,000 hours to 40 hours/year. Zero compliance penalties for 18 months post-launch. "
+    },
+    {
+        "slide": 131,
+        "text": " P065  \u203a  Automated Tax Compliance Engine  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   spaCy   FastAPI   PostgreSQL   Stripe Tax API   React  KEY METRICS & BUSINESS IMPACT Tax calculation time reduced from 2,000 hours to 40 hours/year. Zero compliance penalties for 18 months post-launch.  3 Team Size  3 Duration  FinTech Domain  PROBLEM CONTEXT Tax compliance team spending 2,000+ hours/year on indirect tax calculations across 40 jurisdictions, with $800K in penalty exposure. "
+    },
+    {
+        "slide": 132,
+        "text": "  P066 Seismic Event Classification System  ML/AI  PROBLEM STATEMENT Geophysics team manually classifying 5,000+ seismic events/day, with 6-hour classification lag delaying drilling decisions.  SOLUTION APPROACH 1D CNN trained on seismic waveform data for event classification (earthquake vs. noise vs. blast). AutoML hyperparameter optimization. Real-time streaming inference.  PROJECT DETAILS  Domain Energy / O&G  Team Size 3 people  Duration 10 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  TensorFlow  \u00b7  1D CNN  \u00b7  Apache Kafka  \u00b7  InfluxDB  \u00b7  Grafana   EXPECTED OUTCOMES Classification accuracy 96.4%. Processing time from 6 hours to real-time. Enabled $8M drilling decision made 2 days faster. "
+    },
+    {
+        "slide": 133,
+        "text": " P066  \u203a  Seismic Event Classification System  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   TensorFlow   1D CNN   Apache Kafka   InfluxDB   Grafana  KEY METRICS & BUSINESS IMPACT Classification accuracy 96.4%. Processing time from 6 hours to real-time. Enabled $8M drilling decision made 2 days faster.  3 Team Size  10 weeks Duration  Energy Domain  PROBLEM CONTEXT Geophysics team manually classifying 5,000+ seismic events/day, with 6-hour classification lag delaying drilling decisions. "
+    },
+    {
+        "slide": 134,
+        "text": "  P067 Customer Segmentation & Personalization Engine  ML/AI  PROBLEM STATEMENT Marketing using 4 static customer segments built 3 years ago, resulting in 1.2% email CTR vs. industry 4.5% benchmark.  SOLUTION APPROACH Unsupervised clustering (UMAP + HDBSCAN) on behavioral and transactional data yielding 22 micro-segments. Automated journey orchestration per segment.  PROJECT DETAILS  Domain Retail / Banking  Team Size 3 people  Duration 2 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  UMAP  \u00b7  HDBSCAN  \u00b7  Scikit-learn  \u00b7  Snowflake  \u00b7  Braze   EXPECTED OUTCOMES Email CTR improved from 1.2% to 4.1%. Campaign revenue uplift 28%. Segment refresh now automated weekly vs. annually. "
+    },
+    {
+        "slide": 135,
+        "text": " P067  \u203a  Customer Segmentation & Personalization Engine  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   UMAP   HDBSCAN   Scikit-learn   Snowflake   Braze  KEY METRICS & BUSINESS IMPACT Email CTR improved from 1.2% to 4.1%. Campaign revenue uplift 28%. Segment refresh now automated weekly vs. annually.  3 Team Size  2 Duration  Retail Domain  PROBLEM CONTEXT Marketing using 4 static customer segments built 3 years ago, resulting in 1.2% email CTR vs. industry 4.5% benchmark. "
+    },
+    {
+        "slide": 136,
+        "text": "  P068 Serverless Data Lakehouse on AWS  Data Engineering  PROBLEM STATEMENT Streaming platform running $800K/month in always-on EMR clusters for analytical workloads that run 6 hours/day.  SOLUTION APPROACH Migrated to serverless stack: S3 + Iceberg tables + Athena for query + Step Functions for orchestration. EMR Serverless for Spark jobs. Cost tagging via resource groups.  PROJECT DETAILS  Domain Media / Streaming  Team Size 4 people  Duration 3 months  Type Data Engineering  TECHNOLOGY STACK AWS S3  \u00b7  Apache Iceberg  \u00b7  Amazon Athena  \u00b7  AWS Step Functions  \u00b7  EMR Serverless  \u00b7  Terraform   EXPECTED OUTCOMES Infrastructure cost reduced from $800K to $190K/month (76% reduction). Query performance improved 2.3x. Zero idle compute waste. "
+    },
+    {
+        "slide": 137,
+        "text": " P068  \u203a  Serverless Data Lakehouse on AWS  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   AWS S3   Apache Iceberg   Amazon Athena   AWS Step Functions   EMR Serverless   Terraform  KEY METRICS & BUSINESS IMPACT Infrastructure cost reduced from $800K to $190K/month (76% reduction). Query performance improved 2.3x. Zero idle compute waste.  4 Team Size  3 Duration  Media Domain  PROBLEM CONTEXT Streaming platform running $800K/month in always-on EMR clusters for analytical workloads that run 6 hours/day. "
+    },
+    {
+        "slide": 138,
+        "text": "  P069 Synthetic Data Generation for Model Training  ML/AI  PROBLEM STATEMENT ML team unable to share training data across team boundaries due to PII regulations, blocking model development for 3 high-priority projects.  SOLUTION APPROACH CTGAN-based tabular synthetic data generator with statistical fidelity tests. Privacy guarantees via differential privacy. Automated fitness-for-purpose evaluation.  PROJECT DETAILS  Domain FinTech / Healthcare  Team Size 3 people  Duration 10 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  CTGAN  \u00b7  SDV Library  \u00b7  TensorFlow Privacy  \u00b7  Great Expectations  \u00b7  FastAPI   EXPECTED OUTCOMES 3 blocked ML projects unblocked within 2 weeks of synthetic data availability. Statistical fidelity >95% vs. real data. "
+    },
+    {
+        "slide": 139,
+        "text": " P069  \u203a  Synthetic Data Generation for Model Training  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   CTGAN   SDV Library   TensorFlow Privacy   Great Expectations   FastAPI  KEY METRICS & BUSINESS IMPACT 3 blocked ML projects unblocked within 2 weeks of synthetic data availability. Statistical fidelity >95% vs. real data.  3 Team Size  10 weeks Duration  FinTech Domain  PROBLEM CONTEXT ML team unable to share training data across team boundaries due to PII regulations, blocking model development for 3 high-priority projects. "
+    },
+    {
+        "slide": 140,
+        "text": "  P070 Intelligent Incident Management System  NLP / GenAI  PROBLEM STATEMENT IT team triaging 2,000+ monthly incidents manually, with 35-minute average MTTA and frequent misrouting to wrong teams.  SOLUTION APPROACH NLP classification for automatic incident routing (92% accuracy). Similar incident retrieval via FAISS for suggested resolutions. Auto-escalation based on severity prediction.  PROJECT DETAILS  Domain Technology / ITSM  Team Size 3 people  Duration 2 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  DistilBERT  \u00b7  FAISS  \u00b7  FastAPI  \u00b7  ServiceNow API  \u00b7  Elasticsearch   EXPECTED OUTCOMES MTTA reduced from 35 to 8 minutes. Misrouting reduced by 89%. 34% of incidents auto-resolved via suggested fixes. "
+    },
+    {
+        "slide": 141,
+        "text": " P070  \u203a  Intelligent Incident Management System  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   DistilBERT   FAISS   FastAPI   ServiceNow API   Elasticsearch  KEY METRICS & BUSINESS IMPACT MTTA reduced from 35 to 8 minutes. Misrouting reduced by 89%. 34% of incidents auto-resolved via suggested fixes.  3 Team Size  2 Duration  Technology Domain  PROBLEM CONTEXT IT team triaging 2,000+ monthly incidents manually, with 35-minute average MTTA and frequent misrouting to wrong teams. "
+    },
+    {
+        "slide": 142,
+        "text": "  P071 Precision Agriculture Water Management  ML/AI  PROBLEM STATEMENT Irrigation system over-watering crops by 35% due to fixed schedules, wasting $400K/year in water and reducing yield quality.  SOLUTION APPROACH IoT soil moisture sensor network with LSTM model for irrigation scheduling. Integration with weather API for forecast-based planning. Mobile app for farmer alerts.  PROJECT DETAILS  Domain Agriculture / IoT  Team Size 3 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  LSTM  \u00b7  MQTT  \u00b7  AWS IoT  \u00b7  InfluxDB  \u00b7  React Native   EXPECTED OUTCOMES Water usage reduced by 31%. Crop yield quality improved 14%. ROI payback period 8 months. "
+    },
+    {
+        "slide": 143,
+        "text": " P071  \u203a  Precision Agriculture Water Management  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LSTM   MQTT   AWS IoT   InfluxDB   React Native  KEY METRICS & BUSINESS IMPACT Water usage reduced by 31%. Crop yield quality improved 14%. ROI payback period 8 months.  3 Team Size  3 Duration  Agriculture Domain  PROBLEM CONTEXT Irrigation system over-watering crops by 35% due to fixed schedules, wasting $400K/year in water and reducing yield quality. "
+    },
+    {
+        "slide": 144,
+        "text": "  P072 Real-Time Risk Monitoring for Trading Desk  Data Engineering  PROBLEM STATEMENT Risk desk running end-of-day batch VaR calculations with no intraday risk visibility, exposing firm to undetected intraday limit breaches.  SOLUTION APPROACH Streaming risk calculation engine on Apache Flink processing 50K trades/second. Real-time P&L attribution and Greeks calculation. Breach alerting with trader dashboards.  PROJECT DETAILS  Domain Capital Markets  Team Size 6 people  Duration 6 months  Type Data Engineering  TECHNOLOGY STACK Apache Flink  \u00b7  Python  \u00b7  Redis  \u00b7  Apache Kafka  \u00b7  Grafana  \u00b7  PostgreSQL   EXPECTED OUTCOMES Real-time VaR calculation with 200ms latency. 3 intraday limit breaches caught in first month (none before). Regulatory compliance achieved. "
+    },
+    {
+        "slide": 145,
+        "text": " P072  \u203a  Real-Time Risk Monitoring for Trading Desk  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Apache Flink   Python   Redis   Apache Kafka   Grafana   PostgreSQL  KEY METRICS & BUSINESS IMPACT Real-time VaR calculation with 200ms latency. 3 intraday limit breaches caught in first month (none before). Regulatory compliance achieved.  6 Team Size  6 Duration  Capital Markets Domain  PROBLEM CONTEXT Risk desk running end-of-day batch VaR calculations with no intraday risk visibility, exposing firm to undetected intraday limit breaches. "
+    },
+    {
+        "slide": 146,
+        "text": "  P073 Conversational Commerce Platform  NLP / GenAI  PROBLEM STATEMENT WhatsApp-heavy customer base (60% prefer WhatsApp for support) unable to complete purchases in-channel, causing 35% drop-off.  SOLUTION APPROACH WhatsApp Business API integration with product catalog, cart management, and payment flow. LLM-powered natural language order handling with human fallback.  PROJECT DETAILS  Domain E-Commerce / Retail  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  WhatsApp Business API  \u00b7  LangChain  \u00b7  FastAPI  \u00b7  Stripe API  \u00b7  PostgreSQL   EXPECTED OUTCOMES In-WhatsApp purchase conversion: 14%. $2.1M monthly GMV through WhatsApp channel. Cart abandonment reduced 45%. "
+    },
+    {
+        "slide": 147,
+        "text": " P073  \u203a  Conversational Commerce Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   WhatsApp Business API   LangChain   FastAPI   Stripe API   PostgreSQL  KEY METRICS & BUSINESS IMPACT In-WhatsApp purchase conversion: 14%. $2.1M monthly GMV through WhatsApp channel. Cart abandonment reduced 45%.  3 Team Size  10 weeks Duration  E-Commerce Domain  PROBLEM CONTEXT WhatsApp-heavy customer base (60% prefer WhatsApp for support) unable to complete purchases in-channel, causing 35% drop-off. "
+    },
+    {
+        "slide": 148,
+        "text": "  P074 AI Governance & Model Risk Framework  Data Engineering  PROBLEM STATEMENT Bank deploying 30+ ML models without standardized risk assessment, creating regulatory exposure ahead of SR 11-7 audit.  SOLUTION APPROACH Model governance platform with automated bias testing (Fairlearn), explainability reports (SHAP/LIME), performance monitoring, and approval workflow.  PROJECT DETAILS  Domain Financial Services / Risk  Team Size 4 people  Duration 4 months  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  Fairlearn  \u00b7  SHAP  \u00b7  LIME  \u00b7  MLflow  \u00b7  React  \u00b7  PostgreSQL   EXPECTED OUTCOMES 30 models documented and risk-rated. SR 11-7 audit passed with no findings. Model deployment SLA standardized to 2 weeks. "
+    },
+    {
+        "slide": 149,
+        "text": " P074  \u203a  AI Governance & Model Risk Framework  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Fairlearn   SHAP   LIME   MLflow   React   PostgreSQL  KEY METRICS & BUSINESS IMPACT 30 models documented and risk-rated. SR 11-7 audit passed with no findings. Model deployment SLA standardized to 2 weeks.  4 Team Size  4 Duration  Financial Services Domain  PROBLEM CONTEXT Bank deploying 30+ ML models without standardized risk assessment, creating regulatory exposure ahead of SR 11-7 audit. "
+    },
+    {
+        "slide": 150,
+        "text": "  P075 Multilingual Customer Support Automation  NLP / GenAI  PROBLEM STATEMENT Customer support handling queries in 18 languages with 12-hour SLA, requiring expensive human agents in each region.  SOLUTION APPROACH Multilingual RAG system using mT5 embeddings over localized FAQ knowledge base. LLM response generation with tone calibration per culture. 8-language live agent handoff.  PROJECT DETAILS  Domain Travel / Hospitality  Team Size 4 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  mT5  \u00b7  HuggingFace  \u00b7  LangChain  \u00b7  Zendesk API  \u00b7  FastAPI   EXPECTED OUTCOMES 18-language support with <5 minute SLA. 72% automation rate. Human agent cost reduced by $1.8M annually. "
+    },
+    {
+        "slide": 151,
+        "text": " P075  \u203a  Multilingual Customer Support Automation  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   mT5   HuggingFace   LangChain   Zendesk API   FastAPI  KEY METRICS & BUSINESS IMPACT 18-language support with <5 minute SLA. 72% automation rate. Human agent cost reduced by $1.8M annually.  4 Team Size  3 Duration  Travel Domain  PROBLEM CONTEXT Customer support handling queries in 18 languages with 12-hour SLA, requiring expensive human agents in each region. "
+    },
+    {
+        "slide": 152,
+        "text": "  P076 Anomaly Detection for Smart Grid  ML/AI  PROBLEM STATEMENT Utility detecting energy theft and meter tampering via manual inspections, catching only 15% of incidents at $2M annual loss.  SOLUTION APPROACH Isolation Forest + LSTM autoencoder for consumption pattern anomaly detection. Alert prioritization using risk scoring. Integration with field service dispatch system.  PROJECT DETAILS  Domain Energy / Utilities  Team Size 3 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Scikit-learn  \u00b7  LSTM  \u00b7  Apache Kafka  \u00b7  PostgreSQL  \u00b7  Power BI   EXPECTED OUTCOMES Energy theft detection improved from 15% to 71%. $1.4M annual loss recovered. 90% reduction in false positive field dispatches. "
+    },
+    {
+        "slide": 153,
+        "text": " P076  \u203a  Anomaly Detection for Smart Grid  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Scikit-learn   LSTM   Apache Kafka   PostgreSQL   Power BI  KEY METRICS & BUSINESS IMPACT Energy theft detection improved from 15% to 71%. $1.4M annual loss recovered. 90% reduction in false positive field dispatches.  3 Team Size  3 Duration  Energy Domain  PROBLEM CONTEXT Utility detecting energy theft and meter tampering via manual inspections, catching only 15% of incidents at $2M annual loss. "
+    },
+    {
+        "slide": 154,
+        "text": "  P077 B2B Lead Scoring & Intent Prediction  ML/AI  PROBLEM STATEMENT Sales team working all inbound leads equally, with 80% of deals closed from 20% of leads \u2014 but no way to identify which 20%.  SOLUTION APPROACH Gradient boosting model on firmographic, behavioral, and intent data (G2, Bombora). Real-time scoring via webhook into Salesforce. SDR prioritization dashboard.  PROJECT DETAILS  Domain B2B SaaS / Marketing  Team Size 2 people  Duration 6 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  XGBoost  \u00b7  Salesforce API  \u00b7  Bombora API  \u00b7  FastAPI  \u00b7  Snowflake   EXPECTED OUTCOMES Lead-to-opportunity conversion improved 2.4x for top-scored leads. SDR capacity freed by 30%. $3.8M incremental pipeline in Q1. "
+    },
+    {
+        "slide": 155,
+        "text": " P077  \u203a  B2B Lead Scoring & Intent Prediction  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   XGBoost   Salesforce API   Bombora API   FastAPI   Snowflake  KEY METRICS & BUSINESS IMPACT Lead-to-opportunity conversion improved 2.4x for top-scored leads. SDR capacity freed by 30%. $3.8M incremental pipeline in Q1.  2 Team Size  6 weeks Duration  B2B SaaS Domain  PROBLEM CONTEXT Sales team working all inbound leads equally, with 80% of deals closed from 20% of leads \u2014 but no way to identify which 20%. "
+    },
+    {
+        "slide": 156,
+        "text": "  P078 Document Redaction & PII Masking Pipeline  NLP / GenAI  PROBLEM STATEMENT Discovery team manually redacting PII from 50,000 documents/month at $12/doc, with 4.2% missed PII rate creating legal liability.  SOLUTION APPROACH NLP-based PII detection using ensemble of spaCy NER + Presidio. Confidence-based auto-redaction with human review for low-confidence entities. Audit-ready redaction log.  PROJECT DETAILS  Domain Legal / Compliance  Team Size 2 people  Duration 8 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  spaCy  \u00b7  Microsoft Presidio  \u00b7  FastAPI  \u00b7  Azure Blob  \u00b7  React   EXPECTED OUTCOMES Redaction cost reduced from $12 to $0.45/doc. Missed PII rate reduced to 0.08%. 180K documents processed in first 3 months. "
+    },
+    {
+        "slide": 157,
+        "text": " P078  \u203a  Document Redaction & PII Masking Pipeline  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   spaCy   Microsoft Presidio   FastAPI   Azure Blob   React  KEY METRICS & BUSINESS IMPACT Redaction cost reduced from $12 to $0.45/doc. Missed PII rate reduced to 0.08%. 180K documents processed in first 3 months.  2 Team Size  8 weeks Duration  Legal Domain  PROBLEM CONTEXT Discovery team manually redacting PII from 50,000 documents/month at $12/doc, with 4.2% missed PII rate creating legal liability. "
+    },
+    {
+        "slide": 158,
+        "text": "  P079 HR Attrition Risk Analytics  ML/AI  PROBLEM STATEMENT High attrition (22% annually) among senior engineers with no early warning capability, resulting in $1.2M average replacement cost per senior hire.  SOLUTION APPROACH Survival analysis model using Kaplan-Meier + Cox proportional hazards on HR data. Individual risk scores with SHAP-based retention intervention recommendations.  PROJECT DETAILS  Domain HR / Enterprise  Team Size 2 people  Duration 5 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Lifelines  \u00b7  SHAP  \u00b7  Snowflake  \u00b7  dbt  \u00b7  Tableau   EXPECTED OUTCOMES At-risk engineers identified 3\u20134 months in advance. Attrition reduced from 22% to 14% with targeted interventions. $4.8M annual savings. "
+    },
+    {
+        "slide": 159,
+        "text": " P079  \u203a  HR Attrition Risk Analytics  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Lifelines   SHAP   Snowflake   dbt   Tableau  KEY METRICS & BUSINESS IMPACT At-risk engineers identified 3\u20134 months in advance. Attrition reduced from 22% to 14% with targeted interventions. $4.8M annual savings.  2 Team Size  5 weeks Duration  HR Domain  PROBLEM CONTEXT High attrition (22% annually) among senior engineers with no early warning capability, resulting in $1.2M average replacement cost per senior hire. "
+    },
+    {
+        "slide": 160,
+        "text": "  P080 AI-Powered News Credibility Checker  NLP / GenAI  PROBLEM STATEMENT News aggregator platform failing to filter misinformation, resulting in 8% of content flagged by users as potentially false.  SOLUTION APPROACH Claim verification pipeline: NLP claim extraction \u2192 web search \u2192 cross-reference against trusted sources \u2192 credibility score via ensemble classifier.  PROJECT DETAILS  Domain Media / Trust & Safety  Team Size 3 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  OpenAI API  \u00b7  Google Search API  \u00b7  FastAPI  \u00b7  PostgreSQL  \u00b7  React   EXPECTED OUTCOMES Misinformation rate reduced from 8% to 1.2%. 94% precision on credibility scoring. 0 PR incidents in 9 months post-launch. "
+    },
+    {
+        "slide": 161,
+        "text": " P080  \u203a  AI-Powered News Credibility Checker  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   OpenAI API   Google Search API   FastAPI   PostgreSQL   React  KEY METRICS & BUSINESS IMPACT Misinformation rate reduced from 8% to 1.2%. 94% precision on credibility scoring. 0 PR incidents in 9 months post-launch.  3 Team Size  3 Duration  Media Domain  PROBLEM CONTEXT News aggregator platform failing to filter misinformation, resulting in 8% of content flagged by users as potentially false. "
+    },
+    {
+        "slide": 162,
+        "text": "  P081 Predictive Asset Inspection Scheduler  ML/AI  PROBLEM STATEMENT City managing 8,000 road and bridge assets with fixed 2-year inspection cycles, missing critical deterioration events between cycles.  SOLUTION APPROACH Condition-based inspection scheduling using deterioration models. Satellite imagery change detection for early warning. Risk-prioritized maintenance scheduling.  PROJECT DETAILS  Domain Infrastructure / Government  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Scikit-learn  \u00b7  Google Earth Engine  \u00b7  PostGIS  \u00b7  FastAPI  \u00b7  React   EXPECTED OUTCOMES Critical deterioration detected 14 months earlier on average. Maintenance budget efficiency improved 28%. 0 infrastructure incidents in pilot area. "
+    },
+    {
+        "slide": 163,
+        "text": " P081  \u203a  Predictive Asset Inspection Scheduler  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Scikit-learn   Google Earth Engine   PostGIS   FastAPI   React  KEY METRICS & BUSINESS IMPACT Critical deterioration detected 14 months earlier on average. Maintenance budget efficiency improved 28%. 0 infrastructure incidents in pilot area.  4 Team Size  4 Duration  Infrastructure Domain  PROBLEM CONTEXT City managing 8,000 road and bridge assets with fixed 2-year inspection cycles, missing critical deterioration events between cycles. "
+    },
+    {
+        "slide": 164,
+        "text": "  P082 Real-Time Translation for Global Support  NLP / GenAI  PROBLEM STATEMENT Global support platform serving 60 countries using human translators with $1.2M annual cost and 2-hour average translation lag.  SOLUTION APPROACH Neural machine translation pipeline using Helsinki-NLP models fine-tuned on domain-specific terminology. Real-time translation in support ticketing system with confidence scores.  PROJECT DETAILS  Domain Enterprise / Globalization  Team Size 2 people  Duration 8 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  HuggingFace Helsinki-NLP  \u00b7  FastAPI  \u00b7  Redis  \u00b7  Zendesk API  \u00b7  Docker   EXPECTED OUTCOMES Translation cost reduced from $1.2M to $80K/year. Translation latency from 2 hours to 800ms. BLEU score 34 (vs. 27 for generic MT). "
+    },
+    {
+        "slide": 165,
+        "text": " P082  \u203a  Real-Time Translation for Global Support  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   HuggingFace Helsinki-NLP   FastAPI   Redis   Zendesk API   Docker  KEY METRICS & BUSINESS IMPACT Translation cost reduced from $1.2M to $80K/year. Translation latency from 2 hours to 800ms. BLEU score 34 (vs. 27 for generic MT).  2 Team Size  8 weeks Duration  Enterprise Domain  PROBLEM CONTEXT Global support platform serving 60 countries using human translators with $1.2M annual cost and 2-hour average translation lag. "
+    },
+    {
+        "slide": 166,
+        "text": "  P083 Micro-Lending Credit Scoring for Emerging Markets  ML/AI  PROBLEM STATEMENT MFI lending to 500K borrowers using traditional bureau scores that exclude 70% of target population (unbanked individuals).  SOLUTION APPROACH Alternative credit scoring using mobile money transactions, airtime top-up patterns, and psychometric quiz. Fairness-constrained model to avoid demographic proxy features.  PROJECT DETAILS  Domain FinTech / Development Finance  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  LightGBM  \u00b7  Fairlearn  \u00b7  Mobile Money API  \u00b7  PostgreSQL  \u00b7  FastAPI   EXPECTED OUTCOMES Credit access extended to 150K previously excluded borrowers. Default rate maintained at 2.1%. Model gini coefficient 0.62. "
+    },
+    {
+        "slide": 167,
+        "text": " P083  \u203a  Micro-Lending Credit Scoring for Emerging Markets  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   LightGBM   Fairlearn   Mobile Money API   PostgreSQL   FastAPI  KEY METRICS & BUSINESS IMPACT Credit access extended to 150K previously excluded borrowers. Default rate maintained at 2.1%. Model gini coefficient 0.62.  4 Team Size  4 Duration  FinTech Domain  PROBLEM CONTEXT MFI lending to 500K borrowers using traditional bureau scores that exclude 70% of target population (unbanked individuals). "
+    },
+    {
+        "slide": 168,
+        "text": "  P084 Graph-Based Recommendation for OTT  ML/AI  PROBLEM STATEMENT OTT platform with 8% monthly churn driven by poor content recommendations surfacing already-watched content for 28% of sessions.  SOLUTION APPROACH Graph neural network recommendation using watch history, genre, and collaborative signals. Diversity constraint in ranking to avoid filter bubble effect.  PROJECT DETAILS  Domain Media / Streaming  Team Size 5 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PyTorch Geometric  \u00b7  Redis  \u00b7  Apache Kafka  \u00b7  Kubernetes  \u00b7  BigQuery   EXPECTED OUTCOMES Monthly churn reduced from 8% to 5.3%. Content diversity score +41%. Watch time increased 23%. "
+    },
+    {
+        "slide": 169,
+        "text": " P084  \u203a  Graph-Based Recommendation for OTT  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch Geometric   Redis   Apache Kafka   Kubernetes   BigQuery  KEY METRICS & BUSINESS IMPACT Monthly churn reduced from 8% to 5.3%. Content diversity score +41%. Watch time increased 23%.  5 Team Size  4 Duration  Media Domain  PROBLEM CONTEXT OTT platform with 8% monthly churn driven by poor content recommendations surfacing already-watched content for 28% of sessions. "
+    },
+    {
+        "slide": 170,
+        "text": "  P085 Field Service Optimization Platform  ML/AI  PROBLEM STATEMENT Field service scheduling manual, resulting in 35% travel time waste and $4.2M annual cost from inefficient technician routing.  SOLUTION APPROACH MILP-based scheduling optimization with dynamic rescheduling on job completion/cancellation. Skills matching and parts availability integration. Mobile app for technicians.  PROJECT DETAILS  Domain Utilities / Field Operations  Team Size 5 people  Duration 5 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PuLP (MILP)  \u00b7  Google OR-Tools  \u00b7  FastAPI  \u00b7  React Native  \u00b7  PostgreSQL   EXPECTED OUTCOMES Travel time reduced by 27%. Service jobs completed per technician per day improved from 4.2 to 6.1. $2.8M annual savings. "
+    },
+    {
+        "slide": 171,
+        "text": " P085  \u203a  Field Service Optimization Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PuLP (MILP)   Google OR-Tools   FastAPI   React Native   PostgreSQL  KEY METRICS & BUSINESS IMPACT Travel time reduced by 27%. Service jobs completed per technician per day improved from 4.2 to 6.1. $2.8M annual savings.  5 Team Size  5 Duration  Utilities Domain  PROBLEM CONTEXT Field service scheduling manual, resulting in 35% travel time waste and $4.2M annual cost from inefficient technician routing. "
+    },
+    {
+        "slide": 172,
+        "text": "  P086 NLP Pipeline for Earnings Call Analysis  NLP / GenAI  PROBLEM STATEMENT Equity research team manually transcribing and analyzing 200+ earnings calls/quarter, taking 3 days per company for sentiment and topic extraction.  SOLUTION APPROACH Whisper ASR for transcription + FinBERT for financial sentiment. Topic modeling via BERTopic. Automated summary and tone-change detection vs. prior quarter.  PROJECT DETAILS  Domain Finance / Investment  Team Size 2 people  Duration 6 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  Whisper  \u00b7  FinBERT  \u00b7  BERTopic  \u00b7  FastAPI  \u00b7  PostgreSQL   EXPECTED OUTCOMES Earnings call analysis time reduced from 3 days to 45 minutes. Tone change signals correlated with 3-day stock moves at 0.62 correlation. "
+    },
+    {
+        "slide": 173,
+        "text": " P086  \u203a  NLP Pipeline for Earnings Call Analysis  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Whisper   FinBERT   BERTopic   FastAPI   PostgreSQL  KEY METRICS & BUSINESS IMPACT Earnings call analysis time reduced from 3 days to 45 minutes. Tone change signals correlated with 3-day stock moves at 0.62 correlation.  2 Team Size  6 weeks Duration  Finance Domain  PROBLEM CONTEXT Equity research team manually transcribing and analyzing 200+ earnings calls/quarter, taking 3 days per company for sentiment and topic extraction. "
+    },
+    {
+        "slide": 174,
+        "text": "  P087 Smart Home Energy Optimization  ML/AI  PROBLEM STATEMENT Smart home platform users seeing 0% energy savings despite having sensors, due to no intelligent automation or usage insights.  SOLUTION APPROACH Disaggregation model identifying appliance-level consumption from whole-home smart meter data. RL agent for HVAC scheduling. In-app recommendations with savings calculator.  PROJECT DETAILS  Domain IoT / Energy  Team Size 3 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  NILMTK  \u00b7  Stable Baselines3  \u00b7  MQTT  \u00b7  InfluxDB  \u00b7  React Native   EXPECTED OUTCOMES Average household energy savings of 18%. App engagement increased 3x. 92% of users report increased awareness of consumption patterns. "
+    },
+    {
+        "slide": 175,
+        "text": " P087  \u203a  Smart Home Energy Optimization  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   NILMTK   Stable Baselines3   MQTT   InfluxDB   React Native  KEY METRICS & BUSINESS IMPACT Average household energy savings of 18%. App engagement increased 3x. 92% of users report increased awareness of consumption patterns.  3 Team Size  3 Duration  IoT Domain  PROBLEM CONTEXT Smart home platform users seeing 0% energy savings despite having sensors, due to no intelligent automation or usage insights. "
+    },
+    {
+        "slide": 176,
+        "text": "  P088 AI-Driven Market Research Synthesis  NLP / GenAI  PROBLEM STATEMENT Research team spending 6 weeks synthesizing 500+ pages of market research per engagement, with subjective and inconsistent outputs.  SOLUTION APPROACH RAG pipeline over research documents + web sources. LLM-based synthesis with structured output (key findings, market sizing, competitive landscape). Citation-grounded.  PROJECT DETAILS  Domain Consulting / Market Research  Team Size 2 people  Duration 5 weeks  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4  \u00b7  LangChain  \u00b7  FAISS  \u00b7  Python  \u00b7  Streamlit  \u00b7  PDF Parser   EXPECTED OUTCOMES Research synthesis time reduced from 6 weeks to 3 days. Client satisfaction improved. 2 additional engagements won citing speed advantage. "
+    },
+    {
+        "slide": 177,
+        "text": " P088  \u203a  AI-Driven Market Research Synthesis  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4   LangChain   FAISS   Python   Streamlit   PDF Parser  KEY METRICS & BUSINESS IMPACT Research synthesis time reduced from 6 weeks to 3 days. Client satisfaction improved. 2 additional engagements won citing speed advantage.  2 Team Size  5 weeks Duration  Consulting Domain  PROBLEM CONTEXT Research team spending 6 weeks synthesizing 500+ pages of market research per engagement, with subjective and inconsistent outputs. "
+    },
+    {
+        "slide": 178,
+        "text": "  P089 Microgrid Load Balancing with RL  ML/AI  PROBLEM STATEMENT Solar microgrid operator experiencing 22% energy waste due to suboptimal battery charge/discharge scheduling against time-of-use pricing.  SOLUTION APPROACH Deep RL agent (PPO) trained on historical load, solar generation, and pricing data. Deployed on edge controller with cloud retraining. Safety constraints for battery health.  PROJECT DETAILS  Domain Energy / CleanTech  Team Size 3 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Stable Baselines3 (PPO)  \u00b7  TensorFlow  \u00b7  MQTT  \u00b7  InfluxDB  \u00b7  Grafana   EXPECTED OUTCOMES Energy waste reduced by 19%. Electricity cost reduced 24% through ToU arbitrage. Battery lifecycle extended by estimated 18%. "
+    },
+    {
+        "slide": 179,
+        "text": " P089  \u203a  Microgrid Load Balancing with RL  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Stable Baselines3 (PPO)   TensorFlow   MQTT   InfluxDB   Grafana  KEY METRICS & BUSINESS IMPACT Energy waste reduced by 19%. Electricity cost reduced 24% through ToU arbitrage. Battery lifecycle extended by estimated 18%.  3 Team Size  4 Duration  Energy Domain  PROBLEM CONTEXT Solar microgrid operator experiencing 22% energy waste due to suboptimal battery charge/discharge scheduling against time-of-use pricing. "
+    },
+    {
+        "slide": 180,
+        "text": "  P090 Multi-Source Data Integration Platform  Data Engineering  PROBLEM STATEMENT Hospital network with 15 EMR systems preventing population health analytics and value-based care reporting.  SOLUTION APPROACH FHIR R4-compliant data integration layer normalizing records from 15 source systems. Master patient index with probabilistic matching. HL7 v2 to FHIR converter.  PROJECT DETAILS  Domain Healthcare / Data Platform  Team Size 6 people  Duration 7 months  Type Data Engineering  TECHNOLOGY STACK Python  \u00b7  FHIR R4  \u00b7  Apache Kafka  \u00b7  PostgreSQL  \u00b7  dbt  \u00b7  Azure   EXPECTED OUTCOMES Unified patient records for 2.3M patients. Population health programs launched across 3 care gaps. HEDIS measure compliance improved 15%. "
+    },
+    {
+        "slide": 181,
+        "text": " P090  \u203a  Multi-Source Data Integration Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   FHIR R4   Apache Kafka   PostgreSQL   dbt   Azure  KEY METRICS & BUSINESS IMPACT Unified patient records for 2.3M patients. Population health programs launched across 3 care gaps. HEDIS measure compliance improved 15%.  6 Team Size  7 Duration  Healthcare Domain  PROBLEM CONTEXT Hospital network with 15 EMR systems preventing population health analytics and value-based care reporting. "
+    },
+    {
+        "slide": 182,
+        "text": "  P091 Toxic Content Detection for Social Platform  NLP / GenAI  PROBLEM STATEMENT Social platform with 2M DAU seeing 4% content toxicity rate causing user churn, with moderation team overwhelmed by 50K+ daily reports.  SOLUTION APPROACH Multilabel toxicity classifier (Perspective API + custom fine-tuned model). Context-aware detection for sarcasm and dog-whistles. Graduated response automation.  PROJECT DETAILS  Domain Trust & Safety / Social  Team Size 3 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  Perspective API  \u00b7  HuggingFace  \u00b7  FastAPI  \u00b7  PostgreSQL  \u00b7  Redis   EXPECTED OUTCOMES Toxicity rate reduced from 4% to 0.7%. Moderation team queue reduced 80%. User retention improved 9%. "
+    },
+    {
+        "slide": 183,
+        "text": " P091  \u203a  Toxic Content Detection for Social Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Perspective API   HuggingFace   FastAPI   PostgreSQL   Redis  KEY METRICS & BUSINESS IMPACT Toxicity rate reduced from 4% to 0.7%. Moderation team queue reduced 80%. User retention improved 9%.  3 Team Size  3 Duration  Trust & Safety Domain  PROBLEM CONTEXT Social platform with 2M DAU seeing 4% content toxicity rate causing user churn, with moderation team overwhelmed by 50K+ daily reports. "
+    },
+    {
+        "slide": 184,
+        "text": "  P092 Supply Chain Risk Intelligence Platform  NLP / GenAI  PROBLEM STATEMENT Procurement team blind to geopolitical and ESG risks in supplier base until crises occur, causing two major supply disruptions in 12 months ($45M impact).  SOLUTION APPROACH Automated news and regulatory filing ingestion with NLP risk classification. Supplier risk scoring across 7 dimensions. Early warning system with 30-day risk horizon.  PROJECT DETAILS  Domain Manufacturing / Risk  Team Size 4 people  Duration 3 months  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  HuggingFace  \u00b7  News API  \u00b7  Snowflake  \u00b7  Airflow  \u00b7  Power BI   EXPECTED OUTCOMES 2 supply risks identified 6 weeks before materialization in first year. Risk coverage extended to 450 Tier-1 and Tier-2 suppliers. "
+    },
+    {
+        "slide": 185,
+        "text": " P092  \u203a  Supply Chain Risk Intelligence Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   HuggingFace   News API   Snowflake   Airflow   Power BI  KEY METRICS & BUSINESS IMPACT 2 supply risks identified 6 weeks before materialization in first year. Risk coverage extended to 450 Tier-1 and Tier-2 suppliers.  4 Team Size  3 Duration  Manufacturing Domain  PROBLEM CONTEXT Procurement team blind to geopolitical and ESG risks in supplier base until crises occur, causing two major supply disruptions in 12 months ($45M impact). "
+    },
+    {
+        "slide": 186,
+        "text": "  P093 Automated Sports Highlight Generation  ML/AI  PROBLEM STATEMENT Sports broadcaster manually editing 3-hour match recordings to create 5-minute highlight reels, taking 4 hours per match with 8 matches per weekend.  SOLUTION APPROACH Computer vision + audio analysis pipeline detecting key moments (goals, fouls, crowd reactions). LLM-based commentary generation. Automated video stitching.  PROJECT DETAILS  Domain Media / Sports  Team Size 4 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  OpenCV  \u00b7  YOLOv8  \u00b7  Whisper  \u00b7  OpenAI GPT-4  \u00b7  FFmpeg   EXPECTED OUTCOMES Highlight generation time reduced from 4 hours to 18 minutes. Social media engagement on automated highlights 91% of manual quality. "
+    },
+    {
+        "slide": 187,
+        "text": " P093  \u203a  Automated Sports Highlight Generation  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   OpenCV   YOLOv8   Whisper   OpenAI GPT-4   FFmpeg  KEY METRICS & BUSINESS IMPACT Highlight generation time reduced from 4 hours to 18 minutes. Social media engagement on automated highlights 91% of manual quality.  4 Team Size  4 Duration  Media Domain  PROBLEM CONTEXT Sports broadcaster manually editing 3-hour match recordings to create 5-minute highlight reels, taking 4 hours per match with 8 matches per weekend. "
+    },
+    {
+        "slide": 188,
+        "text": "  P094 Predictive Spare Parts Inventory  ML/AI  PROBLEM STATEMENT Maintenance team experiencing 18% stockout rate on critical spare parts causing $2.8M in extended downtime annually.  SOLUTION APPROACH Intermittent demand forecasting using Croston's method + bootstrapping simulation. Min-max policy optimization per part per warehouse. SAP integration for auto-PO.  PROJECT DETAILS  Domain Manufacturing / MRO  Team Size 2 people  Duration 6 weeks  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Statsmodels  \u00b7  Scipy  \u00b7  SAP MM API  \u00b7  PostgreSQL  \u00b7  Power BI   EXPECTED OUTCOMES Stockout rate reduced from 18% to 3%. Inventory carrying cost reduced 22%. $2.1M in downtime costs avoided in Year 1. "
+    },
+    {
+        "slide": 189,
+        "text": " P094  \u203a  Predictive Spare Parts Inventory  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Statsmodels   Scipy   SAP MM API   PostgreSQL   Power BI  KEY METRICS & BUSINESS IMPACT Stockout rate reduced from 18% to 3%. Inventory carrying cost reduced 22%. $2.1M in downtime costs avoided in Year 1.  2 Team Size  6 weeks Duration  Manufacturing Domain  PROBLEM CONTEXT Maintenance team experiencing 18% stockout rate on critical spare parts causing $2.8M in extended downtime annually. "
+    },
+    {
+        "slide": 190,
+        "text": "  P095 Geospatial Market Expansion Analytics  ML/AI  PROBLEM STATEMENT Retail chain opening new stores based on intuition, with 30% of stores in last 3 years failing to hit Year 1 revenue targets.  SOLUTION APPROACH Site selection model using geospatial features: footfall (Safegraph), competitor density, demographic fit, cannibalization radius. Interactive suitability map.  PROJECT DETAILS  Domain Retail / Strategy  Team Size 3 people  Duration 3 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  GeoPandas  \u00b7  Safegraph API  \u00b7  XGBoost  \u00b7  Folium  \u00b7  PostGIS   EXPECTED OUTCOMES Model adopted for 12 new store decisions. Year 1 revenue target hit rate improved from 70% to 92%. Avoided 2 estimated failures. "
+    },
+    {
+        "slide": 191,
+        "text": " P095  \u203a  Geospatial Market Expansion Analytics  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   GeoPandas   Safegraph API   XGBoost   Folium   PostGIS  KEY METRICS & BUSINESS IMPACT Model adopted for 12 new store decisions. Year 1 revenue target hit rate improved from 70% to 92%. Avoided 2 estimated failures.  3 Team Size  3 Duration  Retail Domain  PROBLEM CONTEXT Retail chain opening new stores based on intuition, with 30% of stores in last 3 years failing to hit Year 1 revenue targets. "
+    },
+    {
+        "slide": 192,
+        "text": "  P096 Real-Time Bid Optimization for Ad Platform  ML/AI  PROBLEM STATEMENT Programmatic advertising bidding with fixed CPM, resulting in 40% of ad spend on low-ROI inventory and $6M in wasted budget.  SOLUTION APPROACH Contextual bandit algorithm for real-time bid pricing. 50ms inference on feature store. CVR prediction model integrated into bidder. Budget pacing controller.  PROJECT DETAILS  Domain AdTech / Marketing  Team Size 5 people  Duration 4 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  Vowpal Wabbit  \u00b7  Redis  \u00b7  FastAPI  \u00b7  Kafka  \u00b7  Spark   EXPECTED OUTCOMES Ad spend efficiency improved 38%. CPA reduced from $42 to $26. $3.2M annual savings on same budget with higher conversions. "
+    },
+    {
+        "slide": 193,
+        "text": " P096  \u203a  Real-Time Bid Optimization for Ad Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   Vowpal Wabbit   Redis   FastAPI   Kafka   Spark  KEY METRICS & BUSINESS IMPACT Ad spend efficiency improved 38%. CPA reduced from $42 to $26. $3.2M annual savings on same budget with higher conversions.  5 Team Size  4 Duration  AdTech Domain  PROBLEM CONTEXT Programmatic advertising bidding with fixed CPM, resulting in 40% of ad spend on low-ROI inventory and $6M in wasted budget. "
+    },
+    {
+        "slide": 194,
+        "text": "  P097 Automated ESG Scoring for Investment Portfolio  NLP / GenAI  PROBLEM STATEMENT ESG investment fund manually scoring 400+ portfolio companies on ESG metrics, taking 3 months per annual review cycle.  SOLUTION APPROACH NLP pipeline extracting ESG indicators from sustainability reports, news, and regulatory filings. Automated scoring with evidence-based justification and controversy flag.  PROJECT DETAILS  Domain Finance / ESG  Team Size 3 people  Duration 10 weeks  Type NLP / GenAI  TECHNOLOGY STACK Python  \u00b7  HuggingFace  \u00b7  SEC EDGAR API  \u00b7  News API  \u00b7  FastAPI  \u00b7  Snowflake   EXPECTED OUTCOMES Annual scoring cycle reduced from 3 months to 2 weeks. Coverage expanded from 400 to 1,200 companies. Used in $2.4B fund investment committee. "
+    },
+    {
+        "slide": 195,
+        "text": " P097  \u203a  Automated ESG Scoring for Investment Portfolio  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   HuggingFace   SEC EDGAR API   News API   FastAPI   Snowflake  KEY METRICS & BUSINESS IMPACT Annual scoring cycle reduced from 3 months to 2 weeks. Coverage expanded from 400 to 1,200 companies. Used in $2.4B fund investment committee.  3 Team Size  10 weeks Duration  Finance Domain  PROBLEM CONTEXT ESG investment fund manually scoring 400+ portfolio companies on ESG metrics, taking 3 months per annual review cycle. "
+    },
+    {
+        "slide": 196,
+        "text": "  P098 3D Point Cloud Processing for Autonomous Vehicles  ML/AI  PROBLEM STATEMENT AV development team processing LiDAR point cloud data at 2 FPS \u2014 far below 10 FPS minimum needed for safe real-time object detection.  SOLUTION APPROACH PointNet++ model with custom CUDA kernels for GPU acceleration. Voxelization optimization reducing memory footprint by 60%. Object detection reaching 12 FPS.  PROJECT DETAILS  Domain Automotive / Robotics  Team Size 5 people  Duration 5 months  Type ML/AI  TECHNOLOGY STACK Python  \u00b7  PyTorch  \u00b7  CUDA  \u00b7  PointNet++  \u00b7  ROS2  \u00b7  Docker   EXPECTED OUTCOMES Processing speed improved from 2 FPS to 12 FPS. Object detection mAP: 0.81. Safety milestone for on-road testing unlocked. "
+    },
+    {
+        "slide": 197,
+        "text": " P098  \u203a  3D Point Cloud Processing for Autonomous Vehicles  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Python   PyTorch   CUDA   PointNet++   ROS2   Docker  KEY METRICS & BUSINESS IMPACT Processing speed improved from 2 FPS to 12 FPS. Object detection mAP: 0.81. Safety milestone for on-road testing unlocked.  5 Team Size  5 Duration  Automotive Domain  PROBLEM CONTEXT AV development team processing LiDAR point cloud data at 2 FPS \u2014 far below 10 FPS minimum needed for safe real-time object detection. "
+    },
+    {
+        "slide": 198,
+        "text": "  P099 Personalized Financial Planning Chatbot  NLP / GenAI  PROBLEM STATEMENT Wealth management firm unable to serve mass-affluent segment (<$500K AUM) profitably with human advisors, missing $180M addressable market.  SOLUTION APPROACH Conversational AI for financial goal setting, risk profiling, and portfolio recommendation. SEC-compliant advice guardrails. Human advisor escalation for complex scenarios.  PROJECT DETAILS  Domain FinTech / Wealth Management  Team Size 4 people  Duration 5 months  Type NLP / GenAI  TECHNOLOGY STACK OpenAI GPT-4  \u00b7  LangChain  \u00b7  Python  \u00b7  FastAPI  \u00b7  React  \u00b7  PostgreSQL   EXPECTED OUTCOMES Mass-affluent segment launched. 8,500 users onboarded in 3 months. AUM under robo-advisory: $42M. Compliance audit passed. "
+    },
+    {
+        "slide": 199,
+        "text": " P099  \u203a  Personalized Financial Planning Chatbot  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   OpenAI GPT-4   LangChain   Python   FastAPI   React   PostgreSQL  KEY METRICS & BUSINESS IMPACT Mass-affluent segment launched. 8,500 users onboarded in 3 months. AUM under robo-advisory: $42M. Compliance audit passed.  4 Team Size  5 Duration  FinTech Domain  PROBLEM CONTEXT Wealth management firm unable to serve mass-affluent segment (<$500K AUM) profitably with human advisors, missing $180M addressable market. "
+    },
+    {
+        "slide": 200,
+        "text": "  P100 Unified MLOps & Feature Platform  Data Engineering  PROBLEM STATEMENT 6 ML teams maintaining separate feature pipelines with 70% feature redundancy and 3-week average time-to-production for new models.  SOLUTION APPROACH Centralized feature store on Feast + Redis/Snowflake. Shared feature registry with reuse metrics. Standardized model packaging with BentoML. CI/CD for ML pipelines.  PROJECT DETAILS  Domain Technology / Platform Engineering  Team Size 5 people  Duration 6 months  Type Data Engineering  TECHNOLOGY STACK Feast  \u00b7  Redis  \u00b7  Snowflake  \u00b7  BentoML  \u00b7  Kubernetes  \u00b7  GitHub Actions   EXPECTED OUTCOMES Feature reuse rate improved from 30% to 74%. Model deployment time reduced from 3 weeks to 2 days. Infrastructure cost reduced 40%. "
+    },
+    {
+        "slide": 201,
+        "text": " P100  \u203a  Unified MLOps & Feature Platform  \u2014  Technical Deep Dive  FULL TECHNOLOGY BREAKDOWN   Feast   Redis   Snowflake   BentoML   Kubernetes   GitHub Actions  KEY METRICS & BUSINESS IMPACT Feature reuse rate improved from 30% to 74%. Model deployment time reduced from 3 weeks to 2 days. Infrastructure cost reduced 40%.  5 Team Size  6 Duration  Technology Domain  PROBLEM CONTEXT 6 ML teams maintaining separate feature pipelines with 70% feature redundancy and 3-week average time-to-production for new models. "
+    }
+]
